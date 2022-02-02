@@ -5,7 +5,6 @@
 | `(없음)`                | 아무런 처리도 하지 않음                                     | `cd`                                                                            |
 | `.`                   | 현재 디렉토리 (아무런 처리도 하지 않음)                           | `cd .`                                                                          |
 | `..`                  | 상위 디렉토리                                           | <ul><li>`cd ..`</li><li>`cd ../Pictures`</li><li>`cd ../../Downloads`</li></ul> |
-|  
 | `~`                   | 현재 게정의 홈 디렉토리                                     | `cd ~`                                                                          |
 | `/`                   | 최상위 디렉토리                                          | `cd /`                                                                          |
 | `/path/to/directory/` | 특정 디렉토리 (절대 경로)                                   | `cd /home/user/Desktop`                                                         |
