@@ -1,6 +1,4 @@
-# [JavaScript] Basic
-
-## 삼항연산자
+# 삼항연산자
 조건부 삼항연산자(Ternary Conditional Operator)라고도 부른다. `if`문을 간략히 작성하기 위해 사용되며 `if`문과의 성능 차이가 있을 수는 있지만 성능폭이 크지는 않다.
 
 아래와 같은 `if`문이 주어진 경우,

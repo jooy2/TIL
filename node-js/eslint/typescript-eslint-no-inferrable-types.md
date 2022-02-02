@@ -1,6 +1,4 @@
-# [TypeScript] Troubleshooting
-
-## Type number trivially inferred from a number literal
+# @typescript-eslint/no-inferrable-types
 ```shell
 Type number trivially inferred from a number literal, remove type annotation  @typescript-eslint/no-inferrable-types
 ```
