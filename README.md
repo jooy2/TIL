@@ -28,7 +28,9 @@
 - TIL을 늦게 시작한지라 커밋한 내용은 실제 커밋 일자 이전에 이미 습득한 지식일 수 있습니다.
 
 ## Contribute
-**Pull Request**로 누구든지 기여를 할 수 있으나, 이 곳은 개인적으로 정리 중인 리포지토리이므로 **단순 오타나 잘못된 정보**에 대한 정정 사항에 대해서만 코드를 병합해드립니다.
+이 곳은 개인적으로 정리 중인 리포지토리이므로 Pull request 처리는 해드리지 않고 있습니다.
+
+문서 내 오타, 잘못된 정보, 기타 수정 요청 사항은 [새 이슈를 등록](https://github.com/jooy2/TIL/issues) 하여 알려주시면 확인 후 반영하겠습니다.
 
 ## License
 Copyright © 2022 Jooy2 Released under the MIT license.
