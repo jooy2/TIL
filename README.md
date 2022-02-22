@@ -1,7 +1,7 @@
 # 📚 TIL (Today I Learned)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/TIL/blob/master/LICENSE)
 [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2)
-![Followers](https://img.shields.io/github/stars/jooy2/TIL?style=social)
+![Stars](https://img.shields.io/github/stars/jooy2/TIL?style=social)
 
 배운 내용을 하나씩 정리해보고 있습니다. 2022년 1월 27일 부터 시작되었습니다.
 
