@@ -24,20 +24,6 @@ test += ADD;
 console.log(test);
 ```
 
-### `Arrow Function`의 인자가 1개일 때 괄호를 넣지 않는다.
-
-**🚫 Bad**
-```javascript
-arr.map((v) => {
-});
-```
-
-**✅ Good**
-```javascript
-arr.map(v => {
-});
-```
-
 ### 삼항연산자에 `function`을 사용하지 않는다.
 
 **🚫 Bad**
@@ -73,6 +59,19 @@ if (isTrue && isAlsoTrue) {
 }
 ```
 
+### `Arrow Function`의 인자가 1개일 때 괄호를 넣지 않는다.
+
+**🚫 Bad**
+```javascript
+arr.map((v) => {
+});
+```
+
+**✅ Good**
+```javascript
+arr.map(v => {
+});
+```
 
 ### 리턴만 존재하는 `Arrow Function`은 한줄로 축약한다.
 
@@ -289,6 +288,36 @@ if (a || b && c) {
 ```javascript
 if (a || (b && c)) {
     // ...
+}
+
+```
+### `switch`문에서 `default`는 하단에 배치한다. 
+
+**🚫 Bad**
+```javascript
+switch (company) {
+    default:
+        break;
+    case 'apple':
+        // apple...
+        break;
+    case 'samsung':
+        // samsung...
+        break;
+}
+```
+
+**✅ Good**
+```javascript
+switch (company) {
+    case 'apple':
+        // apple...
+        break;
+    case 'samsung':
+        // samsung...
+        break;
+    default:
+        break;
 }
 ```
 
