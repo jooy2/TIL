@@ -5,9 +5,9 @@
 
 배운 내용을 하나씩 정리해보고 있습니다. 2022년 1월 27일 부터 시작되었습니다.
 
-최근 `GitHub`에서도 TIL 리포지토리를 많은 사람들이 만들어 사용하고 있는것을 보고 저도 한번 작성해보기로 하였습니다.
+최근 `GitHub`에서도 TIL 리포지토리를 많은 사람들이 만들어 사용하고 있는 것을 보고 저도 한번 작성해보기로 하였습니다.
 
-조금 더 깊게 다루어야 할 정보들은 저의 개인 **[블로그](https://jootc.com)** 에서 별도로 작성하고 있습니다. 관심있으시면 블로그도 한번 둘러봐주세요!
+조금 더 깊게 다루어야 할 정보들은 저의 개인 **[블로그](https://jootc.com)** 에서 별도로 작성하고 있습니다.
 
 ## Project Status
 
@@ -15,7 +15,7 @@
 |----------|--------------------------------------------------------------------------------------------------|
 | 분류 수     | ![Directory Count](https://img.shields.io/github/directory-file-count/jooy2/TIL?type=dir&label=) |
 | 문서 수     | ![File Count](https://img.shields.io/github/directory-file-count/jooy2/TIL?extension=md&label=)  |
-| 커밋 수     | ![Commit Count](https://img.shields.io/github/commit-activity/m/jooy2/TIL?label=)                |
+| 커밋 수     | ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/TIL?label=)                |
 | 라인 수     | ![Line Count](https://img.shields.io/tokei/lines/github/jooy2/TIL?label=)                        |
 | 리포지토리 용량 | ![Repo Size](https://img.shields.io/github/repo-size/jooy2/TIL?label=)                           |
 
@@ -30,7 +30,7 @@
 ## Contribute
 이 곳은 개인적으로 정리 중인 리포지토리이므로 Pull request 처리는 해드리지 않고 있습니다.
 
-문서 내 오타, 잘못된 정보, 기타 수정 요청 사항은 [새 이슈를 등록](https://github.com/jooy2/TIL/issues) 하여 알려주시면 확인 후 반영하겠습니다.
+문서 내 오타, 잘못된 정보, 기타 수정 요청 사항은 **[새 이슈를 등록](https://github.com/jooy2/TIL/issues)** 하여 알려주시면 확인 후 반영하겠습니다.
 
 ## License
 Copyright © 2022 Jooy2 Released under the MIT license.
