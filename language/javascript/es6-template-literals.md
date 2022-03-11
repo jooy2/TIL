@@ -50,8 +50,8 @@ const str = "Hello"
 
 ```javascript
 const str = `Hello
-World"
-Lorem"
+World
+Lorem
 Ipsum`;
 ```
 주의할 점은 `World`, `Lorem`, `Ipsum` 앞에 공백이나 탭 기호가 있다면 해당 문자가 같이 포함되므로 위와 같이 좌측에 붙여서 표현해야 할 수 있다.
