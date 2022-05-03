@@ -94,3 +94,13 @@ error: cannot perform the following tasks:
 ```shell
 $ sudo snap install core
 ```
+
+특정 `snap` 패키지 설치 도중 다음과 같은 에러가 발생할 수 있다.
+
+```shell
+error: cannot read snap file: cannot run unsquashfs: ----- Read on filesystem
+       failed because EOF read_id_table: failed to read id index table FATAL
+       ERROR: File system corruption detected -----
+```
+
+이는 일반적으로 설치하려고 시도한 `snap` 파일이 잘못되었거나 깨져있을 때 발생한다. 파일을 다시 다운로드하여 시도해야 한다.
