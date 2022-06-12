@@ -86,7 +86,7 @@ $ snap refresh
 ```shell
 2021-06-04T08:49:14+09:00 INFO Waiting for restart...
 error: cannot perform the following tasks:
-- Mount snap "portx" (24) (cannot find required base "core18")
+- Mount snap "code" (24) (cannot find required base "core18")
 ```
 
 다음 명령어로 `snapd` `core`를 설치한 후 패키지를 다시 설치하면 문제가 해결된다.
