@@ -21,7 +21,7 @@ $ flutter upgrade
 
 ```shell
 $ flutter clean
-$ flutter get
+$ flutter pub get
 ```
 
 빌드 시 다음 에러가 발생하는 경우가 있다.
