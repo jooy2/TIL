@@ -1,0 +1,26 @@
+{
+  "name": "til",
+  "version": "1.0.0",
+  "description": "Today I Learned",
+  "main": "index.js",
+  "private": true,
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jooy2/TIL.git"
+  },
+  "author": "jooy2 <jootc.help@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jooy2/TIL/issues"
+  },
+  "homepage": "https://github.com/jooy2/TIL#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
