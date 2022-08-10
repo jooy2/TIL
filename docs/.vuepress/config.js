@@ -7,7 +7,7 @@ const { nav, sidebar } = getConfig({
 module.exports = {
     title: `TIL`,
     description: `Today I Learned`,
-    base: '/til/',
+    base: '/TIL/',
     dest: 'build',
     /*head: [
         ['link', {
