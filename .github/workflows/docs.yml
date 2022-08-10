@@ -40,6 +40,10 @@ jobs:
         run: npm i
 
       # run build script
+      - name: Copy index.md from root path
+        run: cp README.md docs/
+
+      # run build script
       - name: Build VuePress site
         run: npm run docs:build
 
@@ -53,6 +57,8 @@ jobs:
           # deploy the default output dir of VuePress
           build_dir: docs/.vuepress/dist
           jekyll: false
+          fqdn: 'til.jooy2.com'
+          author: 'jooy2 <jootc.help@gmail.com>'
         env:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
