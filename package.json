@@ -4,6 +4,7 @@
   "description": "Today I Learned",
   "private": true,
   "scripts": {
+    "docs:dev": "vuepress dev docs --port 8000",
     "docs:build": "vuepress build docs"
   },
   "repository": {

@@ -1,5 +1,7 @@
 .idea
 node_modules
 .DS_Store
-/build/*
+/docs/.vuepress/dist
+/docs/.vuepress/dist/*
+/docs/.vuepress/.temp
 /docs/.vuepress/.temp/*

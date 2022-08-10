@@ -8,7 +8,6 @@ module.exports = {
     title: `TIL`,
     description: `Today I Learned`,
     base: '/TIL/',
-    dest: 'build',
     /*head: [
         ['link', {
             rel: 'icon',
