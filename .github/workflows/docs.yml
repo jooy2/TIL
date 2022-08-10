@@ -58,8 +58,6 @@ jobs:
           build_dir: docs/.vuepress/dist
           jekyll: false
           fqdn: 'til.jooy2.com'
-          committer: 'jooy2 <jootc.help@gmail.com>'
-          author: 'jooy2 <jootc.help@gmail.com>'
         env:
           # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
