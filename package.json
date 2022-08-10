@@ -2,11 +2,7 @@
   "name": "til",
   "version": "1.0.0",
   "description": "Today I Learned",
-  "main": "index.js",
   "private": true,
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
     "docs:build": "vuepress build docs"
   },
