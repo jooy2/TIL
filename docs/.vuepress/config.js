@@ -2,6 +2,7 @@ const getConfig = require("vuepress-bar");
 
 const { nav, sidebar } = getConfig(`${__dirname}/..`, {
     // See https://github.com/ozum/vuepress-bar
+    maxLevel: 5
 })
 
 module.exports = {
