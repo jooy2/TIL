@@ -1,6 +1,4 @@
 const getConfig = require("vuepress-bar");
-const { defaultTheme } = require('@vuepress/theme-default')
-
 
 const { nav, sidebar } = getConfig(`${__dirname}/..`, {
     // See https://github.com/ozum/vuepress-bar
@@ -15,7 +13,7 @@ module.exports = {
             href: '/logo.png'
         }]
     ],*/
-    theme: defaultTheme({
+    themeConfig: {
         sidebar,
         nav: [
             {
@@ -28,5 +26,5 @@ module.exports = {
             ...nav
         ],
         contributors: false
-    })
+    }
 }
