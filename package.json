@@ -16,10 +16,14 @@
   "bugs": {
     "url": "https://github.com/jooy2/TIL/issues"
   },
-  "homepage": "https://github.com/jooy2/TIL#readme",
+  "homepage": "https://til.jooy2.com",
   "devDependencies": {
     "@vuepress/theme-default": "^1.9.7",
-    "vuepress": "^1.9.7",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
     "vuepress-bar": "^0.4.4"
   }
 }
