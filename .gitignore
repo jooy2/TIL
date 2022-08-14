@@ -1,6 +1,21 @@
-.idea
-node_modules
+# IDE
+.idea/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# System files
 .DS_Store
+Thumbs.db
+
+# Vuepress files
 /docs/.vuepress/dist
 /docs/.vuepress/dist/*
 /docs/.vuepress/.temp
