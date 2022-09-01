@@ -11,7 +11,7 @@ const layout = {
         },
         height: 100,
         onMenuClick: function (index) {
-            console.log('Click: ', index)
+            console.log('Click: ', index);
         }
     },
     body: {
