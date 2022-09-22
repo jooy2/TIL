@@ -52,3 +52,27 @@ $ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -
 ## 설치 이후
 
 설치 후 `~/.zshrc` 파일을 편집하여 `Zsh`를 사용자 지정할 수 있다.
+
+상단의 `ZSH_THEME` 값을 변경하여 원하는 `Zsh` 테마를 지정할 수 있다.
+
+```shell
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+#ZSH_THEME="agnoster"
+ZSH_THEME="simple"
+```
+
+`Zsh`에서 Home/End 키가 정상 동작하지 않는 경우 `.zshrc` 하단에 다음 내용을 추가한다.
+
+```shell
+bindkey "\033[1~" beginning-of-line
+bindkey "\033[4~" end-of-line
+```
+
+설정을 편집한 후에는 다음 명령을 실행하여 적용한다.
+
+```shell
+$ source ~/.zshrc
+```
