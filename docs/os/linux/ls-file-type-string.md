@@ -10,6 +10,7 @@ drwxr-xr-x 100 root root  4096 Jan 26 06:54 etc
 drwxr-xr-x   4 root root  4096 Sep  5 02:06 home
 ...
 ```
+
 `ls -l`에서 첫글자 `l`, `d`, `d`...는 파일의 형식이며 문자별로 다음 의미를 가진다:
 
 | 문자   | 파일 타입                | 설명                                                     |

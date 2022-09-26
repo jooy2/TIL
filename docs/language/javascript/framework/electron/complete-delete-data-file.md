@@ -15,6 +15,7 @@ Microsoft Store로 설치한 경우 앱 삭제 시 데이터가 삭제된다.
 ```
 
 ## Linux
+
 ```shell
 # Snapcraft에서 설치했다면:
 $ rm -rf ~/snap/{APP_NAME}

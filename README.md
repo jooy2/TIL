@@ -1,4 +1,5 @@
 # 📚 TIL (Today I Learned)
+
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/TIL/blob/master/LICENSE)
 [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2)
 ![Stars](https://img.shields.io/github/stars/jooy2/TIL?style=social)
@@ -20,6 +21,7 @@
 | 리포지토리 용량 | ![Repo Size](https://img.shields.io/github/repo-size/jooy2/TIL?label=)                                    |
 
 ## Rules
+
 - 문서 제목(공백은 `-`로 통일)과 커밋 메시지는 영문을 원칙으로 합니다. 문법은 크게 신경쓰지 않습니다.
   - `docs-[category]`: 문서 작성
   - `package`: 문서와 무관한 패키지 관련 수정
@@ -30,11 +32,13 @@
 - 커밋 일자와 지식 습득 일자는 다를 수 있습니다.
 
 ## Contribute
+
 이 곳은 개인적으로 정리 중인 리포지토리이므로 Pull request 처리는 해드리지 않고 있습니다.
 
 문서 내 오타, 잘못된 정보, 기타 수정 요청 사항은 **[새 이슈를 등록](https://github.com/jooy2/TIL/issues)** 하여 알려주시면 확인 후 반영하겠습니다.
 
 ## License
+
 문서 인용 시 GitHub Repository 링크를 출처로 표기해주시기 바랍니다.
 
 Copyright © 2022 Jooy2 Released under the MIT license.

@@ -3,6 +3,7 @@
 JavaScript에서는 다양한 방법으로 대상 값에 대한 데이터 타입을 확인할 수 있다.
 
 ## 동치 비교 (`==`, `===`)
+
 먼저 아래와 같이 일반적인 동치 비교를 사용하면 특정 값(좌측)이 주어진 조건값(우측)과 일치하는지 확인할 수 있다.
 
 ```javascript
@@ -36,7 +37,7 @@ console.log(typeof temp); // return 'number'
 console.log(typeof temp === 'number'); // return true
 ```
 
-리턴값은 string으로 표현되며 값은 주로 `number`, `string`, `function`, `boolean`, `object` 등이 있다. 
+리턴값은 `string`으로 표현되며 값은 주로 `number`, `string`, `function`, `boolean`, `object` 등이 있다. 
 
  - 자세한 문서: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/typeof
 

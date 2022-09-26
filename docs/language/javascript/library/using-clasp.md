@@ -1,10 +1,12 @@
 # Clasp
+
 `clasp`는 **[Google Apps Script](https://developers.google.com/apps-script)** 기반 프로젝트를 로컬에서 작업하고 서비스 중인 파일로 `push`하여 업데이트할 수 있도록 도와주는 라이브러리이다. `clone` 스크립트가 탑재된 새로운 문서를 생성할 수도 있다.
 
 - GitHub: https://github.com/google/clasp
 - Documents: https://developers.google.com/apps-script/guides/clasp
 
 # 설치
+
 `clasp`는 **NodeJS** 런타임에서 구동되는 `CLI` 명령어 도구이다. 따라서 `npm` 패키지를 통해 아래와 같이 설치할 수 있다.
 
 ```shell

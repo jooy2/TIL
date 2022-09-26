@@ -1,4 +1,5 @@
 # asar 파일 언팩
+
 **[Electron](https://www.electronjs.org)** 패키지를 빌드하면 빌드 설정에 따라 `.asar` 확장자로 압축되어 패키징되는 경우가 있다.
 
 이 파일은 `electron-builder` 기준, 패키지가 만들어지는 대상 디렉토리에서 `win-unpacked\resources`에 위치해있다. 프로덕션용 패키지 파일(`.exe` 등)을 설치하면 프로그램이 설치된 디렉토리의 `resources` 디렉토리에 존재한다.
