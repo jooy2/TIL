@@ -1,4 +1,4 @@
-# FTP 설정 (vsftpd 설치)
+# FTP 연결 설정 (vsftpd)
 
 ## `vsftpd` 설치
 
