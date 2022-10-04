@@ -169,7 +169,7 @@
 **✅ Good**
 ```html
 <body>
-<button onclick="onClickTestButton()">Test Button</button>
+    <button onclick="onClickTestButton()">Test Button</button>
 </body>
 
 <script type="text/javascript">
