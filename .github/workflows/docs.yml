@@ -41,7 +41,7 @@ jobs:
 
       # run build script
       - name: Copy index.md from root path
-        run: cp README.md docs/
+        run: cp README.md docs/index.md
 
       # run build script
       - name: Build VitePress site
