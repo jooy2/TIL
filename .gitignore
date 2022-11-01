@@ -15,10 +15,10 @@ jspm_packages/
 .DS_Store
 Thumbs.db
 
-# Vuepress files
-/docs/.vuepress/dist
-/docs/.vuepress/dist/*
-/docs/.vuepress/.temp
-/docs/.vuepress/.temp/*
-/docs/.vuepress/.cache
-/docs/.vuepress/.cache/*
+# VitePress files
+/docs/.vitepress/dist
+/docs/.vitepress/dist/*
+/docs/.vitepress/.temp
+/docs/.vitepress/.temp/*
+/docs/.vitepress/.cache
+/docs/.vitepress/.cache/*

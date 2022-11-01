@@ -2,28 +2,28 @@
   "name": "til",
   "version": "1.0.0",
   "description": "Today I Learned",
+  "homepage": "https://til.jooy2.com",
+  "author": "jooy2 <jootc.help@gmail.com>",
+  "license": "MIT",
   "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev docs --port 8000",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "npm run docs:build && vitepress serve docs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jooy2/TIL.git"
   },
-  "author": "jooy2 <jootc.help@gmail.com>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jooy2/TIL/issues"
   },
-  "homepage": "https://til.jooy2.com",
   "devDependencies": {
-    "@vuepress/theme-default": "^1.9.7",
-    "eslint": "^8.21.0",
+    "eslint": "^8.26.0",
     "eslint-config-airbnb": "^19.0.4",
-    "vuepress": "^1.9.7"
-  },
-  "dependencies": {
-    "vuepress-bar": "^0.4.4"
+    "shiki": "^0.11.1",
+    "vitepress": "^1.0.0-alpha.26",
+    "vitepress-sidebar": "^1.0.7",
+    "vue": "^3.2.41"
   }
 }
