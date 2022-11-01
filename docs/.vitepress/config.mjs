@@ -18,8 +18,7 @@ export default {
       root: 'docs',
       collapsible: false,
       collapsed: false,
-      underscoreToSpace: true,
-      hyphenToSpace: true
+      useTitleFromFileHeading: true
     }),
     nav: [
       {
