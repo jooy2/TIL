@@ -3,6 +3,7 @@ import { BUNDLED_LANGUAGES } from 'shiki';
 
 // Ref: https://vitepress.vuejs.org/config/introduction
 
+// @ts-ignore
 BUNDLED_LANGUAGES.find((lang) => lang.id === 'json').aliases = ['json5'];
 
 export default {
@@ -17,6 +18,7 @@ export default {
 		sidebar: generateSidebar({
 			root: 'docs',
 			collapseDepth: 2,
+			capitalizeFirst: true,
 			useTitleFromFileHeading: true
 		}),
 		nav: [
