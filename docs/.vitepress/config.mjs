@@ -16,8 +16,7 @@ export default {
   themeConfig: {
     sidebar: generateSidebar({
       root: 'docs',
-      collapsible: false,
-      collapsed: false,
+      collapseDepth: 2,
       useTitleFromFileHeading: true
     }),
     nav: [
