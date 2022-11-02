@@ -7,15 +7,15 @@
 console.log('Hello'); // 'Hello'
 
 /* This line is a comment.
-*  
-* This part of the code is also not executed.
-* function Main () {
-*   console.log('Hello');
-* }
-* 
-* Main();
-*
-* */
+ *
+ * This part of the code is also not executed.
+ * function Main () {
+ *   console.log('Hello');
+ * }
+ *
+ * Main();
+ *
+ * */
 ```
 
 주석과 텍스트 사이에는 공백이 들어가는 것이 좋다.
@@ -28,14 +28,14 @@ console.log('Hello'); // 'Hello'
 일부 IDE에서는 특수한 포맷으로 작성된 주석을 해석하여 정리하므로 여러 용도로 활용할 수 있다. 예를 들어 다음과 같이 사용한다.
 
 ```javascript
-function Main () {
-    // TODO: Write the Main function
+function Main() {
+	// TODO: Write the Main function
 }
 ```
 
 `TODO:` (공백으로 구분)를 붙여 작성하면 IDE는 할일 목록에 해당 라인의 코드를 바로가기 할 수 있는 리스트를 생성한다. 이외에도 여러가지 포맷들이 있다. (IDE마다 처리 방식이 다를 수 있으며 이 것이 공식적인 것은 아니다.)
 
-- `TODO`: 추후 동작에 있어 작성이나 수정이 필요한 부분 
+- `TODO`: 추후 동작에 있어 작성이나 수정이 필요한 부분
 - `NOTE`: 코드가 동작하는데 유의할 점이나 명확하지 않은 동작에 대한 참고사항
 - `FIXME`: 해당 코드에 대한 검토 및 재작성이 필요함
 - `BUG`: 해당 코드에 문제가 있음

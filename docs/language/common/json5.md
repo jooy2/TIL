@@ -6,17 +6,19 @@
 
 ```json5
 {
-    "id": 1234,
-    // This is single line comment
-    "fruits": [
-      "apple", "orange", "banana" // Fruits
-    ],
-    /* This
+	id: 1234,
+	// This is single line comment
+	fruits: [
+		'apple',
+		'orange',
+		'banana' // Fruits
+	],
+	/* This
      is
      Multi line
      comment
     */
-    "isEnable": true
+	isEnable: true
 }
 ```
 
@@ -24,8 +26,8 @@
 
 ```json5
 {
-  "id": 1234,
-  "name": "lee", // <<--- ','
+	id: 1234,
+	name: 'lee' // <<--- ','
 }
 ```
 
@@ -33,10 +35,10 @@
 
 ```json5
 {
-  "multiLineString": "Hello\
+	multiLineString: 'Hello\
   World\
   JSON5\
-  Sample"
+  Sample'
 }
 ```
 
@@ -44,12 +46,12 @@
 
 ```json5
 {
-  "id": 12345678,
-  "NaN": NaN, // <--- NaN 데이터
-  "infinity": Infinity, // <--- Infinity 데이터
-  "plus": +1234, // <--- + 사용
-  "minus": -1234, // <--- - 사용
-  "hexadecimal": 0xbc614e, // <--- 16진수 데이터
-  "leadingDecimalPoint": .1234, // <--- 선행 소수점 데이터
+	id: 12345678,
+	NaN: NaN, // <--- NaN 데이터
+	infinity: Infinity, // <--- Infinity 데이터
+	plus: +1234, // <--- + 사용
+	minus: -1234, // <--- - 사용
+	hexadecimal: 0xbc614e, // <--- 16진수 데이터
+	leadingDecimalPoint: 0.1234 // <--- 선행 소수점 데이터
 }
 ```

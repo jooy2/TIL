@@ -16,7 +16,6 @@ ClientAliveCountMax 0
 - `ClientAliveInterval`: 클라이언트 확인 간격 (`n` Seconds)
 - `ClientAliveCountMax`: Keep Alive 메시지를 받지 못했을 때 클라이언트를 종료하기 전 접속을 유지해야 하는 최대 횟수
 
-
 예를 들어 `ClientAliveInterval`이 `10`이고 `ClientAliveCountMax`가 `3`이면 `10 X 3 = 30`초 이상 응답이 없을 경우 세션을 종료한다.
 
 서버측에서 `Keep Alive` 응답을 보내지 않으려면 `ClientAliveCountMax`의 값을 `0`으로 설정한다. `ClientAliveInterval`에 설정된 초가 지나면 연결을 종료한다.

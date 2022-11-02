@@ -39,7 +39,7 @@ $ sudo firewall-cmd --zone=public --add-port=23/tcp --permanent
 ### ufw
 
 ```shell
-$ sudo ufw allow 23/tcp 
+$ sudo ufw allow 23/tcp
 ```
 
 ## Xinetd 설정

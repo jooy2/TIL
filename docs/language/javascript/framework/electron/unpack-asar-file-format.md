@@ -20,8 +20,8 @@ $ npx asar extract app.asar asarResources
 
 ```json
 {
-  "build": {
-    "asar": false
-  }
+	"build": {
+		"asar": false
+	}
 }
 ```

@@ -6,29 +6,29 @@
 
 ```javascript
 class Company {
-    constructor() {
-        this.uniqueId = 0;
-        this.name = '';
-        this.country = '';
-    }
-    
-    setName(name) {
-        this.name = name;
-        
-        return this;
-    }
-    
-    setUniqueId(id) {
-        this.uniqueId = id;
+	constructor() {
+		this.uniqueId = 0;
+		this.name = '';
+		this.country = '';
+	}
 
-        return this;
-    }
-    
-    setCountry(country) {
-        this.country = country;
+	setName(name) {
+		this.name = name;
 
-        return this;
-    }
+		return this;
+	}
+
+	setUniqueId(id) {
+		this.uniqueId = id;
+
+		return this;
+	}
+
+	setCountry(country) {
+		this.country = country;
+
+		return this;
+	}
 }
 ```
 
@@ -42,8 +42,7 @@ company.setUniqueId(12345678);
 company.setCountry('South Korea');
 ```
 
-위와 같이 한번에 사용해야 하는 메소드가 많으면 많을수록 코드가 복잡해 보일 수 있다.
-메소드 체이닝을 활용한다면 다음과 같이 간략하게 코드를 작성할 수 있다.
+위와 같이 한번에 사용해야 하는 메소드가 많으면 많을수록 코드가 복잡해 보일 수 있다. 메소드 체이닝을 활용한다면 다음과 같이 간략하게 코드를 작성할 수 있다.
 
 ```javascript
 const company = new Company();
@@ -56,9 +55,7 @@ company.setName('Samsung').setUniqueId(12345678).setCountry('South Korea');
 ```javascript
 const company = new Company();
 
-company.setName('Samsung')
-    .setUniqueId(12345678)
-    .setCountry('South Korea');
+company.setName('Samsung').setUniqueId(12345678).setCountry('South Korea');
 ```
 
 다만 메소드 체이닝을 사용하기 위한 조건이 있다. 메소드 체이닝에 사용되는 메소드는 모두 `this`로 리턴되어야 한다.
@@ -66,7 +63,7 @@ company.setName('Samsung')
 ```javascript
 setCountry(country) {
     this.country = country;
-    
+
     return this;
 }
 ```

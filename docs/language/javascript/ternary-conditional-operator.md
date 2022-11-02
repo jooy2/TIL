@@ -6,7 +6,7 @@
 
 ```javascript
 if (isExists) {
-    return 'Exist';
+	return 'Exist';
 }
 return 'Not Exist';
 ```
@@ -25,17 +25,14 @@ return isExists ? 'Exist' : 'Not Exist';
 return isExists ? 'Exist' : showError ? 'ERR' : null;
 ```
 
-다만 위와 같은 중첩 삼항연산자는 코드 가독성에 호불호가 있으므로 가급적 사용하지 않는 것이 좋다.
-필요한 경우 아래와 같은 방법으로 가독성을 높일 수 있다.
+다만 위와 같은 중첩 삼항연산자는 코드 가독성에 호불호가 있으므로 가급적 사용하지 않는 것이 좋다. 필요한 경우 아래와 같은 방법으로 가독성을 높일 수 있다.
 
 ```javascript
-return isExists ? 'Exist' : (showError ? 'ERR' : null);
+return isExists ? 'Exist' : showError ? 'ERR' : null;
 ```
 
 ```javascript
-return isExists ? 'Exist' :
-       showError ? 'ERR' :
-       null;
+return isExists ? 'Exist' : showError ? 'ERR' : null;
 ```
 
 삼항 연산자의 참과 거짓에는 리턴값 외에 함수를 사용하지 않는 것이 좋다. 분기가 많아질 경우는 `if`문을 쓰는 것이 더욱 바람직 할 수 있다.

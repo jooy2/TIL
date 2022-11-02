@@ -9,6 +9,7 @@
 Microsoft Store로 설치한 경우 앱 삭제 시 데이터가 삭제된다.
 
 `.exe`로 설치한 경우 아래 경로 파일을 삭제한다.
+
 ```shell
 %APPDATA%\Electron
 %APPDATA%\{APP_NAME}

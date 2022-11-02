@@ -42,6 +42,7 @@ android {
 ```
 
 ### Flutter 2.x
+
 ```
 android {
     compileSdkVersion {SDK Version}

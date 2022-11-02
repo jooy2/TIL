@@ -9,11 +9,11 @@ Type number trivially inferred from a number literal, remove type annotation  @t
 위 에러 메시지는 `eslint`에서 표시되는 메시지로 간단히 해당 규칙(`@typescript-eslint/no-inferrable-types`)을 비활성화하여 끌 수 있기도 하다.
 
 ```typescript
-export function getUserAccount(isGoogleAccount : boolean = true) : boolean {
-    if (isGoogleAccount) {
-        // code here
-    }
-    return true
+export function getUserAccount(isGoogleAccount: boolean = true): boolean {
+	if (isGoogleAccount) {
+		// code here
+	}
+	return true;
 }
 ```
 
@@ -22,10 +22,10 @@ export function getUserAccount(isGoogleAccount : boolean = true) : boolean {
 수정된 코드는 다음과 같다.
 
 ```typescript
-export function getUserAccount(isGoogleAccount = true) : boolean {
-    if (isGoogleAccount) {
-        // code here
-    }
-    return true
+export function getUserAccount(isGoogleAccount = true): boolean {
+	if (isGoogleAccount) {
+		// code here
+	}
+	return true;
 }
 ```

@@ -1,9 +1,8 @@
 # console로 로깅 메시지 출력하기
 
-`console`은 자바스크립트에서 제공하는 로깅 객체이며 브라우저에 탑재된 콘솔이나 터미널 출력을 통해 매시지를 출력할 수 있게 한다.
-주로 개발 환경에서 결과를 확인하는 테스트 용도로 사용된다. 과거에는 `alert`가 많이 활용되었으나 보안이나 접근성 문제로 인해 최근엔 `console`로 대체하여 사용한다.
+`console`은 자바스크립트에서 제공하는 로깅 객체이며 브라우저에 탑재된 콘솔이나 터미널 출력을 통해 매시지를 출력할 수 있게 한다. 주로 개발 환경에서 결과를 확인하는 테스트 용도로 사용된다. 과거에는 `alert`가 많이 활용되었으나 보안이나 접근성 문제로 인해 최근엔 `console`로 대체하여 사용한다.
 
-커맨드라인 명령형 프로그램이 아닌 웹사이트에서는 `alert`의 문제와 같이 보안을 위해 프로덕션 환경에서 콘솔 로그를 출력하지 않는 것이 좋다. 확인이 끝난 콘솔 메시지는 삭제해주는 것이 좋다. 
+커맨드라인 명령형 프로그램이 아닌 웹사이트에서는 `alert`의 문제와 같이 보안을 위해 프로덕션 환경에서 콘솔 로그를 출력하지 않는 것이 좋다. 확인이 끝난 콘솔 메시지는 삭제해주는 것이 좋다.
 
 `console`의 가장 많이 사용되는 메소드는 `log`이며 아래와 같이 문자열이나 특정 변수를 콘솔에 출력할 수 있다.
 
@@ -15,8 +14,7 @@ console.log(hello); // 'Hello'
 console.log(number); // 12345
 ```
 
-브라우저 콘솔과 같은 개발자 도구에서는 출력되는 데이터의 자료형에 맞게 색상 등으로 구분하여 출력해준다. 문자열이나 데이터를 조합하고자 하는 경우 여러 인자를 콤마(`,`)로 넘겨 쉽게 표현할 수 있다.
-마찬가지로 데이터형에 맞게 표시된다.
+브라우저 콘솔과 같은 개발자 도구에서는 출력되는 데이터의 자료형에 맞게 색상 등으로 구분하여 출력해준다. 문자열이나 데이터를 조합하고자 하는 경우 여러 인자를 콤마(`,`)로 넘겨 쉽게 표현할 수 있다. 마찬가지로 데이터형에 맞게 표시된다.
 
 ```javascript
 const hello = 'Hello';
@@ -29,10 +27,10 @@ console.log('Hello', number); // 'Hello' 12345
 ```javascript
 const arr = [1, 2, 3];
 const obj = {
-  hello: 'world',
-  child: {
-    hello: 'world'
-  }
+	hello: 'world',
+	child: {
+		hello: 'world'
+	}
 };
 
 console.log(arr); // [1, 2, 3]
@@ -44,15 +42,15 @@ console.log(obj.hello); // 'world'
 
 ```javascript
 const obj = {
-  hello: 'world',
-  child: {
-    hello: 'world'
-  }
+	hello: 'world',
+	child: {
+		hello: 'world'
+	}
 };
 console.dir(obj, { depth: null }); // { hello: 'world', child: { hello: 'world' } };
 ```
 
-`NodeJS`의 `util.inspect`를 사용하여 객체를 모두 표시할 수 있다. 다만 특별한 경우가 아니라면 `console.dir`을 사용하는 것이 더 간편하다. 
+`NodeJS`의 `util.inspect`를 사용하여 객체를 모두 표시할 수 있다. 다만 특별한 경우가 아니라면 `console.dir`을 사용하는 것이 더 간편하다.
 
 ```javascript
 import { inspect } from 'util';

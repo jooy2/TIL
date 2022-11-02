@@ -9,28 +9,28 @@
 ```javascript
 'use strict'; // << Add this line
 
-function Main () {
-    // ...
+function Main() {
+	// ...
 }
 ```
 
 이렇게 되면 전체 스크립트 파일에 엄격 모드가 적용된다. 특정 함수에만 한정적으로 적용할 수도 있다.
 
 ```javascript
-function Main () {
-    'use strict';
-    // ...
-    function sub () {
-        // This function is also affected by strict mode
-    }
+function Main() {
+	'use strict';
+	// ...
+	function sub() {
+		// This function is also affected by strict mode
+	}
 }
 ```
 
-예를 들어 다음과 같이 선언하지 않은 변수에 값을 할당하게 된다면, 
+예를 들어 다음과 같이 선언하지 않은 변수에 값을 할당하게 된다면,
 
 ```javascript
 abc = 'Hello';
-	
+
 console.log(abc); // 'Hello'
 ```
 
@@ -39,7 +39,7 @@ console.log(abc); // 'Hello'
 ```javascript
 'use strict';
 abc = 'Hello';
-	
+
 console.log(abc); // Uncaught ReferenceError: abc is not defined
 ```
 

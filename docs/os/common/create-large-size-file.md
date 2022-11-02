@@ -20,7 +20,6 @@
 > fsutil file createnew C:\Users\test\Desktop\largeFile 1000000000
 ```
 
-
 ## Linux
 
 ### 사용 방법

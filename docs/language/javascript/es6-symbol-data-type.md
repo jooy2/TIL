@@ -23,8 +23,8 @@ console.log(symbolA === 'key'); // false
 
 ```javascript
 const person = {
-    id: 123,
-    name: 'lee',
+	id: 123,
+	name: 'lee'
 };
 
 person.id = 456;
@@ -32,15 +32,14 @@ person.id = 456;
 console.log(person.id); // 456
 ```
 
-
 위 예시에서 `person.id = 456`을 통해 `id` 속성의 값 `123`이 의도치 않게 변경되거나, 다시 외부 스크립트에 의해 선언한 값을 바꾸어버릴 수 있다.
 
 아래와 같이 `Symbol`을 활용하면 누군가에 의해 수정되지 않는 고유한 속성을 만들어 값을 저장해 둘 수 있다.
 
 ```javascript
 const person = {
-    id: 123,
-    name: 'lee',
+	id: 123,
+	name: 'lee'
 };
 
 const symbolId = Symbol('id');

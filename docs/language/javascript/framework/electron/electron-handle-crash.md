@@ -10,8 +10,8 @@
 
 ```javascript
 process.on('uncaughtException', (err, origin) => {
-  // 메인 프로세스 크래시 발생 시 처리할 코드
-})
+	// 메인 프로세스 크래시 발생 시 처리할 코드
+});
 ```
 
 ## 렌더러 프로세스 크래시 처리
@@ -24,6 +24,6 @@ process.on('uncaughtException', (err, origin) => {
 import { app } from 'electron';
 
 app.on('render-process-gone', (event, webContents, details) => {
-  // 렌더러 프로세스 크래시 발생 시 처리할 코드
-})
+	// 렌더러 프로세스 크래시 발생 시 처리할 코드
+});
 ```

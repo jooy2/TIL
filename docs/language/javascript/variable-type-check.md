@@ -37,9 +37,9 @@ console.log(typeof temp); // return 'number'
 console.log(typeof temp === 'number'); // return true
 ```
 
-리턴값은 `string`으로 표현되며 값은 주로 `number`, `string`, `function`, `boolean`, `object` 등이 있다. 
+리턴값은 `string`으로 표현되며 값은 주로 `number`, `string`, `function`, `boolean`, `object` 등이 있다.
 
- - 자세한 문서: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/typeof
+- 자세한 문서: https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/typeof
 
 ## `instanceof` 연산자
 

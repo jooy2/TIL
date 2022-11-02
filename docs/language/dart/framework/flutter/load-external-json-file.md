@@ -4,18 +4,18 @@
 
 ```json
 [
-  {
-    "id": 0,
-    "name": "lee"
-  },
-  {
-    "id": 1,
-    "name": "kim"
-  },
-  {
-    "id": 2,
-    "name": "park"
-  }
+	{
+		"id": 0,
+		"name": "lee"
+	},
+	{
+		"id": 1,
+		"name": "kim"
+	},
+	{
+		"id": 2,
+		"name": "park"
+	}
 ]
 ```
 
@@ -43,11 +43,11 @@ class Main {
     final String str = await rootBundle.loadString(path);
     return json.decode(str);
   }
-  
+
   run() async {
     List<dynamic> jsonData =
         await Utils.getListFromJson('assets/json/users.json');
-    
+
     print(jsonData[0]['name']); // 'lee'
   }
 }

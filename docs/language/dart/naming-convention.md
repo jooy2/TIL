@@ -1,4 +1,4 @@
-# Dart 네이밍 컨벤션 (Dart Naming Convention) 
+# Dart 네이밍 컨벤션 (Dart Naming Convention)
 
 ### 폴더 이름과 파일 이름은 스네이크 케이스(snake_case)를 사용한다.
 
@@ -33,7 +33,7 @@ String _ = 'user';
 ### 라이브러리 프리픽스값은 스네이크 케이스(snake_case)를 사용한다.
 
 ```dart
-import 'package:flutter/material.dart' as flutter_material; 
+import 'package:flutter/material.dart' as flutter_material;
 ```
 
 ### 함수 이름은 카멜 케이스(camelCase)를 사용한다.

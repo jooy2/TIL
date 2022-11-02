@@ -4,7 +4,7 @@
 
 진행하기 전 `CLI` 기반의 `Yubico PIV Tool`이 설치되어 있어야 한다.
 
-* 다운로드 링크: https://developers.yubico.com/yubico-piv-tool/Releases/
+- 다운로드 링크: https://developers.yubico.com/yubico-piv-tool/Releases/
 
 먼저 토큰 `PIN`이나 `PUK` 중 하나가 Block 상태로 되어있다면 아래 명령어를 사용하여 PIN과 PUK 모두 Block 상태로 만든다. 아래와 같이 동일 명령어를 각각 3번씩 실행해야 한다.
 
@@ -24,7 +24,6 @@ $ yubico-piv-tool -a reset
 $ yubico-piv-tool -a set-chuid
 $ yubico-piv-tool -a set-ccc
 ```
-
 
 ## 토큰 초기화 이후 PIN, PUK 변경하기
 

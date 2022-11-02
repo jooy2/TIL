@@ -7,7 +7,7 @@
 기존 문자열 리터럴의 표현은 다음과 같이 이루어졌다.
 
 ```javascript
-const str = "Hello " + 12345 + " World!";
+const str = 'Hello ' + 12345 + ' World!';
 console.log(str); // Hello 12345 World!
 ```
 
@@ -17,7 +17,7 @@ console.log(str); // Hello 12345 World!
 const aNum = 1;
 const bNum = 2;
 const cNum = 3;
-const str = "[ A is: " + aNum + ", B is: " + bNum + ", C is: " + cNum + " ]";
+const str = '[ A is: ' + aNum + ', B is: ' + bNum + ', C is: ' + cNum + ' ]';
 console.log(str); // [ A is: 1, B is: 2, C is: 3 ]
 ```
 
@@ -39,12 +39,9 @@ const str = `[ A is: ${aNum}, B is: ${bNum}, C is: ${cNum} ]`;
 템플릿 리터럴의 또 다른 특징은 텍스트 개행을 단순히 엔터로 구분할 수 있다는 것이다. 아래와 같은 문자열 리터럴 코드가 있다고 가정한다면:
 
 ```javascript
-const str = "Hello\nWorld\nLorem\nIpsum";
+const str = 'Hello\nWorld\nLorem\nIpsum';
 // OR...
-const str = "Hello"
-    + "\nWorld"
-    + "\nLorem"
-    + "\nIpsum";
+const str = 'Hello' + '\nWorld' + '\nLorem' + '\nIpsum';
 ```
 
 템플릿 리터럴로는 다음과 같이 표현할 수 있다:
@@ -55,6 +52,7 @@ World
 Lorem
 Ipsum`;
 ```
+
 주의할 점은 `World`, `Lorem`, `Ipsum` 앞에 공백이나 탭 기호가 있다면 해당 문자가 같이 포함되므로 위와 같이 좌측에 붙여서 표현해야 할 수 있다.
 
 또한 템플릿 리터럴에서는 아래 코드와 같이 따옴표(`'` 또는 `"`)를 별도의 이스케이프 처리 없이도 사용할 수 있다.

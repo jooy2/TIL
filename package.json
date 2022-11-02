@@ -1,29 +1,33 @@
 {
-  "name": "til",
-  "version": "1.0.0",
-  "description": "Today I Learned",
-  "homepage": "https://til.jooy2.com",
-  "author": "jooy2 <jootc.help@gmail.com>",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "npm run docs:build && vitepress serve docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jooy2/TIL.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jooy2/TIL/issues"
-  },
-  "devDependencies": {
-    "eslint": "^8.26.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "shiki": "^0.11.1",
-    "vitepress": "^1.0.0-alpha.26",
-    "vitepress-sidebar": "^1.0.8",
-    "vue": "^3.2.41"
-  }
+	"name": "til",
+	"version": "1.0.0",
+	"description": "Today I Learned",
+	"homepage": "https://til.jooy2.com",
+	"author": "jooy2 <jootc.help@gmail.com>",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"docs:dev": "vitepress dev docs",
+		"docs:build": "vitepress build docs",
+		"docs:serve": "npm run docs:build && vitepress serve docs",
+		"format": "prettier .",
+		"format:fix": "prettier . --write"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jooy2/TIL.git"
+	},
+	"bugs": {
+		"url": "https://github.com/jooy2/TIL/issues"
+	},
+	"devDependencies": {
+		"eslint": "^8.26.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^8.5.0",
+		"prettier": "^2.7.1",
+		"shiki": "^0.11.1",
+		"vitepress": "^1.0.0-alpha.26",
+		"vitepress-sidebar": "^1.0.8",
+		"vue": "^3.2.41"
+	}
 }

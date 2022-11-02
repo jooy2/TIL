@@ -39,4 +39,4 @@ Cannot not find minSdk from android/app/build.gradle or android/local.properties
 
 ```text
 flutter.minSdkVersion=30
-````
+```

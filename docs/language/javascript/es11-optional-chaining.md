@@ -4,23 +4,23 @@
 
 ```javascript
 const layout = {
-    header: {
-        menu: {
-            active: 0,
-            items: ['home', 'login', 'admin']
-        },
-        height: 100,
-        onMenuClick: function (index) {
-            console.log('Click: ', index);
-        }
-    },
-    body: {
-        heading: 'hello',
-        desc: 'world'
-    },
-    footer: {
-        copyright: 'ⓒ 2022'
-    }
+	header: {
+		menu: {
+			active: 0,
+			items: ['home', 'login', 'admin']
+		},
+		height: 100,
+		onMenuClick: function (index) {
+			console.log('Click: ', index);
+		}
+	},
+	body: {
+		heading: 'hello',
+		desc: 'world'
+	},
+	footer: {
+		copyright: 'ⓒ 2022'
+	}
 };
 ```
 
@@ -41,7 +41,7 @@ TypeError: Cannot read properties of null (reading 'header')
 
 ```javascript
 if (layout && layout.header && layout.header.menu) {
-    console.log(layout.header.menu.items); // ['home', 'login', 'admin']
+	console.log(layout.header.menu.items); // ['home', 'login', 'admin']
 }
 ```
 
@@ -59,7 +59,7 @@ console.log(layout2?.header?.menu?.items); // undefined
 
 위 `if`문을 사용한 코드와 달리 훨씬 더 코드를 간결하게 표현할 수 있다는 장점이 있다.
 
-`array`나 `function`도 마찬가지로 옵셔널 체이닝을 사용할 수 있다. 
+`array`나 `function`도 마찬가지로 옵셔널 체이닝을 사용할 수 있다.
 
 ```javascript
 const layout = {};
@@ -75,4 +75,5 @@ TypeError: layout?.header?.onMenuClick is not a function
 ```
 
 ## Reference
- - https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optional_chaining
+
+- https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optional_chaining

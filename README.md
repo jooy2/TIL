@@ -1,24 +1,22 @@
 # 📚 TIL (Today I Learned)
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/TIL/blob/master/LICENSE)
-[![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2)
-![Stars](https://img.shields.io/github/stars/jooy2/TIL?style=social)
+> [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/TIL/blob/master/LICENSE) [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2) ![Stars](https://img.shields.io/github/stars/jooy2/TIL?style=social)
 
 각종 분야에서 습득한 다양한 지식을 정리한 Today I Learned 리포지토리입니다. 2022년 1월 27일 부터 시작되었습니다.
 
 이 리포지토리의 문서는 아래 링크에서 쉽게 접근하고 읽을 수 있습니다.
 
-* 홈페이지 바로가기: **https://til.jooy2.com**
+- 홈페이지 바로가기: **https://til.jooy2.com**
 
 조금 더 깊이 다루어야 할 내용들은 저의 개인 **[블로그](https://jootc.com)** 에서 별도로 포스팅합니다. TIL 문서에 블로그 내용이 일부 포함될 수 있습니다.
 
 ## Project Status
 
-| #        | Value                                                                                                     |
-|----------|-----------------------------------------------------------------------------------------------------------|
-| 커밋 수     | ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/TIL?label=)                         |
-| 라인 수     | ![Line Count](https://img.shields.io/tokei/lines/github/jooy2/TIL?label=)                                 |
-| 리포지토리 용량 | ![Repo Size](https://img.shields.io/github/repo-size/jooy2/TIL?label=)                                    |
+| # | Value |
+| --- | --- |
+| 커밋 수 | ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/TIL?label=) |
+| 라인 수 | ![Line Count](https://img.shields.io/tokei/lines/github/jooy2/TIL?label=) |
+| 리포지토리 용량 | ![Repo Size](https://img.shields.io/github/repo-size/jooy2/TIL?label=) |
 
 ## Rules
 

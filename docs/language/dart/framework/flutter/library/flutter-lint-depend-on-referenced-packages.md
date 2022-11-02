@@ -8,10 +8,10 @@ import 'package:path_provider/path_provider.dart';
 
 class Main {
   Main()
-  
+
   get _textFilePath async {
     final documentDir = await getApplicationDocumentsDirectory();
-    
+
     return join(documentDir, 'file.txt');
   }
 }
@@ -35,7 +35,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.5
-  
+
   path: ^1.8.1
 ```
 
