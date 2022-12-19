@@ -1,5 +1,6 @@
 import { generateSidebar } from 'vitepress-sidebar';
 import { BUNDLED_LANGUAGES } from 'shiki';
+import { name, description } from '../../package.json';
 
 // Ref: https://vitepress.vuejs.org/config/introduction
 
@@ -7,9 +8,8 @@ import { BUNDLED_LANGUAGES } from 'shiki';
 BUNDLED_LANGUAGES.find((lang) => lang.id === 'json').aliases = ['json5'];
 
 export default {
-	title: 'TIL',
-	description:
-		"Jooy2's Today I Learned. 각종 분야에서 습득한 다양한 지식을 정리한 미니 블로그입니다.",
+	title: name.toUpperCase(),
+	description,
 	head: [
 		['link', { rel: 'icon', href: '/logo.png' }],
 		['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
