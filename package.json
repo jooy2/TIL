@@ -26,7 +26,6 @@
 		"eslint-config-airbnb": "^19.0.4",
 		"eslint-config-prettier": "^8.5.0",
 		"prettier": "^2.8.1",
-		"shiki": "^0.12.1",
 		"vitepress": "^1.0.0-alpha.33",
 		"vitepress-sidebar": "^1.1.3",
 		"vue": "^3.2.45"
