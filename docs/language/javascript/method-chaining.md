@@ -61,10 +61,12 @@ company.setName('Samsung').setUniqueId(12345678).setCountry('South Korea');
 다만 메소드 체이닝을 사용하기 위한 조건이 있다. 메소드 체이닝에 사용되는 메소드는 모두 `this`로 리턴되어야 한다.
 
 ```javascript
-setCountry(country) {
+class Company {
+  setCountry(country) {
     this.country = country;
 
-    return this;
+    return this; // <---- Add this
+  }
 }
 ```
 

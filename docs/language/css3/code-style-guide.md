@@ -119,3 +119,32 @@
 	padding: 0;
 }
 ```
+
+### 여러 방향의 속성을 정의할 경우 (특히 같은 값일 때) 가능한 한줄로 축약할 수 있도록 한다.
+
+**🚫 Not Good**
+
+```css
+.myDiv {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+```
+
+**✅ Good**
+
+```css
+.myDiv {
+	padding: 10px;
+}
+```
+
+각 방향 마다 서로 다른 값을 가지는 경우 `padding`이나 `margin` 속성의 경우 `TRBL`(Top, Right, Bottom, Left)의 순서로 작성할 수 있다.
+
+```css
+.myDiv {
+	padding: 10px 5px 10px 20px;
+}
+```
