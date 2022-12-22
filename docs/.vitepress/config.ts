@@ -1,6 +1,6 @@
 import { generateSidebar } from 'vitepress-sidebar';
 import { BUNDLED_LANGUAGES } from 'shiki';
-import { name, description } from '../../package.json';
+import { name, description, repository } from '../../package.json';
 
 // Ref: https://vitepress.vuejs.org/config/introduction
 
@@ -27,6 +27,6 @@ export default {
 				link: 'https://jootc.com'
 			}
 		],
-		socialLinks: [{ icon: 'github', link: 'https://github.com/jooy2/til' }]
+		socialLinks: [{ icon: 'github', link: repository.url.replace('.git', '') }]
 	}
 };
