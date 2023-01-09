@@ -39,4 +39,4 @@
 
 문서 인용 시 GitHub Repository 링크를 출처로 표기해주시기 바랍니다.
 
-Copyright © 2022 [Jooy2](https://jooy2.com) <[jooy2.contact@gmail.com](mailto:jooy2.contact@gmail.com)> Released under the MIT license.
+Copyright © 2022-2023 [Jooy2](https://jooy2.com) <[jooy2.contact@gmail.com](mailto:jooy2.contact@gmail.com)> Released under the MIT license.
