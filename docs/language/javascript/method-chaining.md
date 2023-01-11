@@ -62,11 +62,11 @@ company.setName('Samsung').setUniqueId(12345678).setCountry('South Korea');
 
 ```javascript
 class Company {
-  setCountry(country) {
-    this.country = country;
+	setCountry(country) {
+		this.country = country;
 
-    return this; // <---- Add this
-  }
+		return this; // <---- Add this
+	}
 }
 ```
 
