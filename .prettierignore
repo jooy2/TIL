@@ -7,4 +7,4 @@
 
 # Project files
 .github/
-docs/.vitepress/dist/
+dist/

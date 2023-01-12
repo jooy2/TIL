@@ -16,8 +16,8 @@ jspm_packages/
 Thumbs.db
 
 # VitePress files
-/docs/.vitepress/dist
-/docs/.vitepress/dist/*
+/dist
+/dist/*
 /docs/.vitepress/.temp
 /docs/.vitepress/.temp/*
 /docs/.vitepress/.cache

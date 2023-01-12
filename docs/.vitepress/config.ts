@@ -5,6 +5,7 @@ import { name, description, repository } from '../../package.json';
 export default {
 	title: name.toUpperCase(),
 	description,
+	outDir: '../dist',
 	head: [
 		['link', { rel: 'icon', href: '/logo.png' }],
 		['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
