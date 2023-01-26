@@ -37,6 +37,6 @@ Cannot not find minSdk from android/app/build.gradle or android/local.properties
 
 `android/local.properties`에 다음 내용을 추가한다.
 
-```text
+```txt
 flutter.minSdkVersion=30
 ```

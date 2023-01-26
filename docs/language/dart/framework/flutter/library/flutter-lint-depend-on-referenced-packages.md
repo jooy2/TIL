@@ -19,7 +19,7 @@ class Main {
 
 위 코드 예시에서 `join` 메소드를 사용하면서 사용된 path 패키지를 `import`했을 때, 해당 라인에서 다음 에러가 발생한다.
 
-```text
+```txt
 Depend on referenced packages.
 
 When importing a package, add a dependency on it to your pubspec.

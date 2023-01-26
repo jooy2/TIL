@@ -52,7 +52,7 @@ $ clasp push
 
 `.claspignore`는 `.gitignore`와 유사하다. 아래는 `node_modules`와 `package.json` 파일을 업로드하지 않는 규칙의 예시이다.
 
-```text
+```txt
 package.json
 node_modules/**
 node_modules/**/.*/**

@@ -2,7 +2,7 @@
 
 ### 폴더 이름과 파일 이름은 스네이크 케이스(snake_case)를 사용한다.
 
-```text
+```txt
 test_utils/
 plugins/
 main_screen.dart
@@ -11,7 +11,7 @@ file_util.dart
 
 ### 폴더명은 복수형을 사용하며, 파일명은 가급적 단수형을 사용한다.
 
-```text
+```txt
 utils/
 widgets/
 screens/
@@ -63,7 +63,7 @@ class MainApp extends StatefulWidget {
 
 ### 가능하다면 파일 이름의 끝에 디렉토리 이름을 포함한다.
 
-```text
+```txt
 screens/
     ㄴ main_screen.dart
     ㄴ purchase_screen.dart
