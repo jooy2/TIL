@@ -24,11 +24,11 @@ console.log(undefined || 'FALSE'); // 'FALSE'
 그러나 널 병합 연산자를 사용하면 결과가 달라진다.
 
 ```javascript
-console.log(0 || 'FALSE'); // 0
-console.log(false || 'FALSE'); // false
-console.log('' || 'FALSE'); // ''
-console.log(null || 'FALSE'); // 'FALSE'
-console.log(undefined || 'FALSE'); // 'FALSE'
+console.log(0 ?? 'FALSE'); // 0
+console.log(false ?? 'FALSE'); // false
+console.log('' ?? 'FALSE'); // ''
+console.log(null ?? 'FALSE'); // 'FALSE'
+console.log(undefined ?? 'FALSE'); // 'FALSE'
 ```
 
 피연산자가 `null`과 `undefined`일 경우에만 `'FALSE'`가 반환된다.
