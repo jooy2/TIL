@@ -8,7 +8,7 @@
 
 ```yaml
 dev_dependencies:
-  flutter_launcher_icons: ^0.9.3
+  flutter_launcher_icons: ^0.12.0
 ```
 
 이후 하단에 다음 내용을 구성한다. `image_path`에는 프로젝트 경로 루트 기준 변경할 아이콘의 경로를 입력한다.
