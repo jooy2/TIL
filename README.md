@@ -15,7 +15,6 @@
 | # | Value |
 | --- | --- |
 | 커밋 수 | ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/TIL?label=) |
-| 라인 수 | ![Line Count](https://img.shields.io/tokei/lines/github/jooy2/TIL?label=) |
 | 리포지토리 용량 | ![Repo Size](https://img.shields.io/github/repo-size/jooy2/TIL?label=) |
 
 ## Rules
