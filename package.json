@@ -2,7 +2,7 @@
 	"name": "til",
 	"version": "1.0.0",
 	"type": "module",
-	"description": "Today I Learned. 프로그래밍, IT 분야에서 습득한 다양한 지식이나 팁들을 정리한 미니 블로그입니다.",
+	"description": "Today I Learned. 프로그래밍, 컴퓨팅 등의 분야에 대한 다양한 지식이나 팁들을 정리한 미니 블로그입니다.",
 	"homepage": "https://til.jooy2.com",
 	"author": "jooy2 <jooy2.contact@gmail.com>",
 	"license": "MIT",
