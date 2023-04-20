@@ -17,6 +17,9 @@ export default {
 			capitalizeFirst: true,
 			useTitleFromFileHeading: true
 		}),
+		search: {
+			provider: 'local'
+		},
 		nav: [
 			{
 				text: 'Blog',
