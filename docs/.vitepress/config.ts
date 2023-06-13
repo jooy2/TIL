@@ -12,7 +12,7 @@ export default {
 	],
 	themeConfig: {
 		sidebar: generateSidebar({
-			root: 'docs',
+			documentRootPath: 'docs',
 			collapseDepth: 2,
 			capitalizeFirst: true,
 			useTitleFromFileHeading: true
