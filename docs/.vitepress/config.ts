@@ -10,6 +10,7 @@ export default {
 		['link', { rel: 'icon', href: '/logo.png' }],
 		['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
 	],
+	cleanUrls: true,
 	themeConfig: {
 		sidebar: generateSidebar({
 			documentRootPath: 'docs',
