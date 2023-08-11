@@ -1,14 +1,16 @@
 # 📚 TIL (Today I Learned)
 
-> [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/TIL/blob/master/LICENSE) [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2) ![Stars](https://img.shields.io/github/stars/jooy2/TIL?style=social)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jooy2/TIL/blob/master/LICENSE) [![Followers](https://img.shields.io/github/followers/jooy2?style=social)](https://github.com/jooy2) ![Stars](https://img.shields.io/github/stars/jooy2/TIL?style=social)
 
-각종 분야에서 습득한 다양한 지식을 정리한 Today I Learned 리포지토리입니다. 2022년 1월 27일 부터 시작되었습니다.
+---
 
-이 리포지토리의 문서는 아래 링크에서 쉽게 접근하고 읽을 수 있습니다.
+각종 분야에서 습득한 다양한 지식을 정리한 [Jooy2](https://jooy2.com)의 **Today I Learned** 프로젝트에 오신 것을 환영합니다! 이 프로젝트는 2022년 1월 27일에 시작되었습니다.
 
-- 홈페이지 바로가기: **https://til.jooy2.com**
+TIL 문서는 아래 페이지에서 별도로 호스팅하여 서비스하고 있습니다. 가독성 있게 정리된 사이트에서 검색과 사이드 메뉴를 활용하여 문서를 찾아볼 수 있습니다.
 
-조금 더 깊이 다루어야 할 내용들은 저의 개인 **[블로그](https://jootc.com)** 에서 별도로 포스팅합니다. TIL 문서에 블로그 내용이 일부 포함될 수 있습니다.
+- **[문서 페이지 바로가기 (til.jooy2.com)](https://til.jooy2.com)**
+
+TIL에서는 토막 지식이나 코드 스니펫과 같이 간략한 정보에 대한 내용만을 취급합니다. 조금 더 다양한 범위와 자세한 고찰이 포함된 정보들은 저의 **[개인 블로그](https://jootc.com)** 에서 포스팅되고 있습니다.
 
 ## Project Status
 
@@ -17,25 +19,29 @@
 | 커밋 수 | ![Commit Count](https://img.shields.io/github/commit-activity/y/jooy2/TIL?label=) |
 | 리포지토리 용량 | ![Repo Size](https://img.shields.io/github/repo-size/jooy2/TIL?label=) |
 
-## Rules
+## Commit rules
 
-- 문서 제목(공백은 `-`로 통일)과 커밋 메시지는 영문을 원칙으로 합니다. 문법은 크게 신경쓰지 않습니다.
-  - `docs-[category]`: 문서 작성
+- 문서 제목 및 커밋 메시지는 영문을 원칙으로 합니다. commit prefix는 다음과 같습니다:
+  - `docs`: 문서 작성
   - `package`: 문서와 무관한 패키지 관련 수정
   - `typo`: 단순 오류 및 오타 수정
-- 마크다운을 준수하여 부제목이 있을 때는 헤딩을 순서대로 작성합니다.
+- 마크다운 문법을 준수하여 부제목이 있을 때는 헤딩을 순서대로 작성합니다.
 - 주요 내용을 문서별로 분리하며, 메인 카테고리는 폴더로 처리합니다.
+- 카테고리 깊이는 5단계를 넘지 않아야 합니다.
 - 문서 내 항목 순서는 중요도와 무관합니다.
-- 커밋 일자와 지식 습득 일자는 다를 수 있습니다.
+- 커밋 일자와 지식을 습득 일자는 다를 수 있습니다.
 
 ## Contribute
 
-이 곳은 개인적으로 정리 중인 리포지토리이므로 Pull request 처리는 해드리지 않고 있습니다.
+이 곳은 개인적으로 정리 중인 리포지토리입니다. 따라서 다음 상황에 대해서만 Pull Request로 기여해주실 수 있습니다.
 
-문서 내 오타, 잘못된 정보, 기타 수정 요청 사항은 **[새 이슈를 등록](https://github.com/jooy2/TIL/issues)** 하여 알려주시면 확인 후 반영하겠습니다.
+- 문서 내 오타나 잘못된 정보가 포함되어 정정이 필요한 경우
+- 패키지 빌드, 문서 빌드에 대해 개선사항이나 버그 수정이 필요한 경우
+
+PR이 어려운 경우 요청 사항에 대해 **[새 이슈를 등록](https://github.com/jooy2/TIL/issues)** 하여 알려주시면 확인 후 반영하겠습니다.
 
 ## License
 
-문서 인용 시 GitHub Repository 링크를 출처로 표기해주시기 바랍니다.
+문서 내 코드는 자유롭게 사용 가능합니다. 문서 본문을 인용할 때에는 GitHub Repository 링크를 출처로 표기해주시기 바랍니다.
 
 Copyright © 2022-2023 [Jooy2](https://jooy2.com) <[jooy2.contact@gmail.com](mailto:jooy2.contact@gmail.com)> Released under the MIT license.
