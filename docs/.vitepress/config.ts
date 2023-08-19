@@ -1,5 +1,5 @@
 import { generateSidebar } from 'vitepress-sidebar';
-import { name, description, repository } from '../../package.json';
+import { name, description, repository, homepage } from '../../package.json';
 
 // Ref: https://vitepress.vuejs.org/config/introduction
 export default {
@@ -11,6 +11,9 @@ export default {
 		['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
 	],
 	cleanUrls: true,
+	sitemap: {
+		hostname: homepage
+	},
 	themeConfig: {
 		sidebar: generateSidebar({
 			documentRootPath: 'docs',
