@@ -7,8 +7,9 @@ export default {
 	description,
 	outDir: '../dist',
 	head: [
-		['link', { rel: 'icon', href: '/logo.png' }],
-		['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
+		['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/logo-32.png' }],
+		['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/logo-16.png' }],
+		['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
 	],
 	cleanUrls: true,
 	sitemap: {
