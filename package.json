@@ -31,8 +31,8 @@
 		"eslint-config-prettier": "^9.0.0",
 		"prettier": "^3.0.3",
 		"typescript": "^5.2.2",
-		"vitepress": "1.0.0-rc.11",
-		"vitepress-sidebar": "^1.13.0",
+		"vitepress": "^1.0.0-rc.14",
+		"vitepress-sidebar": "^1.14.0",
 		"vue": "^3.3.4"
 	}
 }

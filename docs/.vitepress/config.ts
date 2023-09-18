@@ -9,7 +9,7 @@ export default {
 	head: [
 		['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/logo-32.png' }],
 		['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/logo-16.png' }],
-		['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+		['link', { rel: 'shortcut icon', href: '/favicon.ico' }]
 	],
 	cleanUrls: true,
 	sitemap: {
@@ -20,7 +20,9 @@ export default {
 			documentRootPath: 'docs',
 			collapseDepth: 2,
 			capitalizeFirst: true,
-			useTitleFromFileHeading: true
+			underscoreToSpace: true,
+			useTitleFromFileHeading: true,
+			useTitleFromFrontmatter: true
 		}),
 		search: {
 			provider: 'local'
