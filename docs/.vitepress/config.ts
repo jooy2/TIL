@@ -16,6 +16,7 @@ export default {
 		hostname: homepage
 	},
 	themeConfig: {
+		logo: { src: '/logo-32.png', width: 24, height: 24 },
 		sidebar: generateSidebar({
 			documentRootPath: 'docs',
 			collapseDepth: 2,
