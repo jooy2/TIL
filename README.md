@@ -44,4 +44,4 @@ PR이 어려운 경우 요청 사항에 대해 **[새 이슈를 등록](https://
 
 문서 내 코드는 자유롭게 사용 가능합니다. 문서 본문을 인용할 때에는 GitHub Repository 링크를 출처로 표기해주시기 바랍니다.
 
-Copyright © 2022-2023 [Jooy2](https://jooy2.com) <[jooy2.contact@gmail.com](mailto:jooy2.contact@gmail.com)> Released under the MIT license.
+Copyright © 2022-2024 [Jooy2](https://jooy2.com) <[jooy2.contact@gmail.com](mailto:jooy2.contact@gmail.com)> Released under the MIT license.
