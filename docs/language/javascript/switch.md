@@ -98,7 +98,7 @@ function getResponse(str) {
 위 코드에서 `str`의 값이 `1`인 경우 결과는 `abcd`, `2`인 경우 결과는 `bcd`가 된다. `str`의 값이 `case`문의 값과 달라도 `break`의 여부에 따라 다른 코드도 실행될 수 있으므로 사용 시 유의해야만 한다.
 
 ```javascript
-function isItTrue(str) {
+function isItTrue() {
 	function isTrue() {
 		return true;
 	}
