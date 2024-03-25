@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a4 as a}from"./chunks/framework.4aTu-Nia.js";const g=JSON.parse('{"title":"📚 TIL (Today I Learned)","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),r={name:"index.md"},i=a("",18),l=[i];function s(n,c,h,d,m,u){return o(),t("div",null,l)}const b=e(r,[["render",s]]);export{g as __pageData,b as default};
