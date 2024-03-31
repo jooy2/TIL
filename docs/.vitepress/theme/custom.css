@@ -1,0 +1,7 @@
+:root {
+	user-select: none;
+}
+
+.shiki {
+	user-select: text !important;
+}

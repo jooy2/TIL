@@ -35,6 +35,9 @@ export default defineConfig({
 				link: 'https://jootc.com'
 			}
 		],
-		socialLinks: [{ icon: 'github', link: repository.url.replace('.git', '') }]
+		socialLinks: [{ icon: 'github', link: repository.url.replace('.git', '') }],
+		footer: {
+			copyright: '© <a href="https://jooy2.com">Jooy2</a>'
+		}
 	}
 });
