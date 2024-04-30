@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as r,a3 as o}from"./chunks/framework.BcAOiHKl.js";const m=JSON.parse('{"title":"소개","description":"","frontmatter":{},"headers":[],"relativePath":"instructions.md","filePath":"instructions.md"}'),a={name:"instructions.md"},n=o("",5),s=[n];function _(c,i,p,d,l,h){return r(),e("div",null,s)}const u=t(a,[["render",_]]);export{m as __pageData,u as default};
