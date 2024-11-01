@@ -1,4 +1,4 @@
-import { generateSidebar } from 'vitepress-sidebar';
+import { VitePressSidebarOptions, withSidebar } from 'vitepress-sidebar';
 import { defineConfig, UserConfig } from 'vitepress';
 import { withI18n } from 'vitepress-i18n';
 import { VitePressI18nOptions } from 'vitepress-i18n/dist/types';
@@ -13,6 +13,15 @@ const vitePressI18nConfig: VitePressI18nOptions = {
 	description: {
 		ko: description
 	}
+};
+
+const vitePressSidebarConfig: VitePressSidebarOptions = {
+	documentRootPath: 'docs',
+	collapseDepth: 2,
+	capitalizeFirst: true,
+	underscoreToSpace: true,
+	useTitleFromFileHeading: true,
+	useTitleFromFrontmatter: true
 };
 
 // Ref: https://vitepress.vuejs.org/config/introduction
@@ -39,14 +48,6 @@ const vitePressConfig: UserConfig = {
 		editLink: {
 			pattern: 'https://github.com/jooy2/til/edit/master/docs/:path'
 		},
-		sidebar: generateSidebar({
-			documentRootPath: 'docs',
-			collapseDepth: 2,
-			capitalizeFirst: true,
-			underscoreToSpace: true,
-			useTitleFromFileHeading: true,
-			useTitleFromFrontmatter: true
-		}),
 		nav: [
 			{
 				text: 'Blog',
@@ -60,4 +61,6 @@ const vitePressConfig: UserConfig = {
 	}
 };
 
-export default defineConfig(withI18n(vitePressConfig, vitePressI18nConfig));
+export default defineConfig(
+	withSidebar(withI18n(vitePressConfig, vitePressI18nConfig), vitePressSidebarConfig)
+);
