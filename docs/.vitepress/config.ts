@@ -1,7 +1,8 @@
-import { VitePressSidebarOptions, withSidebar } from 'vitepress-sidebar';
+import { withSidebar } from 'vitepress-sidebar';
 import { defineConfig, UserConfig } from 'vitepress';
 import { withI18n } from 'vitepress-i18n';
-import { VitePressI18nOptions } from 'vitepress-i18n/dist/types';
+import type { VitePressI18nOptions } from 'vitepress-i18n/types';
+import type { VitePressSidebarOptions } from 'vitepress-sidebar/types';
 import { name, repository, description, homepage } from '../../package.json';
 
 const defaultLocale: string = 'ko';
