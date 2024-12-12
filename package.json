@@ -8,9 +8,9 @@
 	"license": "MIT",
 	"private": true,
 	"scripts": {
-		"docs:dev": "vitepress dev docs",
-		"docs:build": "vitepress build docs",
-		"docs:serve": "npm run docs:build && vitepress serve docs",
+		"dev": "vitepress dev docs",
+		"build": "vitepress build docs",
+		"serve": "npm run docs:build && vitepress serve docs",
 		"lint": "eslint .",
 		"lint:fix": "eslint --fix .",
 		"format": "prettier .",
