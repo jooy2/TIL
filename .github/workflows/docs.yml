@@ -25,7 +25,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
 
       # cache node_modules
       - name: Cache dependencies
@@ -45,7 +45,7 @@ jobs:
 
       # run build script
       - name: Build VitePress site
-        run: npm run docs:build
+        run: npm run build
 
       # please check out the docs of the workflow for more details
       # @see https://github.com/crazy-max/ghaction-github-pages
