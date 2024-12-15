@@ -21,7 +21,7 @@ const vitePressSidebarConfig: VitePressSidebarOptions = {
 	collapseDepth: 2,
 	capitalizeFirst: true,
 	underscoreToSpace: true,
-	manualSortFileNameByPriority: ['instructions.md'],
+	manualSortFileNameByPriority: ['instructions.md', 'development', 'language', 'os', 'misc'],
 	useTitleFromFileHeading: true,
 	useTitleFromFrontmatter: true
 };
