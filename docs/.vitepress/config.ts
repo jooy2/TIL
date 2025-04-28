@@ -1,8 +1,8 @@
 import { withSidebar } from 'vitepress-sidebar';
 import { defineConfig, UserConfig } from 'vitepress';
 import { withI18n } from 'vitepress-i18n';
-import type { VitePressI18nOptions } from 'vitepress-i18n/types';
-import type { VitePressSidebarOptions } from 'vitepress-sidebar/types';
+import type { VitePressI18nOptions } from 'vitepress-i18n/dist/types';
+import type { VitePressSidebarOptions } from 'vitepress-sidebar/dist/types';
 import { name, repository, description, homepage } from '../../package.json';
 
 const defaultLocale: string = 'ko';
@@ -23,7 +23,8 @@ const vitePressSidebarConfig: VitePressSidebarOptions = {
 	underscoreToSpace: true,
 	manualSortFileNameByPriority: ['instructions.md', 'development', 'language', 'os', 'misc'],
 	useTitleFromFileHeading: true,
-	useTitleFromFrontmatter: true
+	useTitleFromFrontmatter: true,
+	useFolderLinkFromIndexFile: true
 };
 
 // Ref: https://vitepress.vuejs.org/config/introduction
