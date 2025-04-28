@@ -8,8 +8,8 @@
 declare type PositiveNumber<N extends number> = number extends N
 	? N
 	: `${N}` extends `-${string}`
-	? never
-	: N;
+		? never
+		: N;
 ```
 
 위 링크에 설명된대로 `PositiveNumber`라는 데이터 타입을 `declare`를 사용하여 선언한다. `number` 데이터형의 속성을 상속받은 후 템플릿 리터럴을 사용하여 제공받은 값이 음수값인지 확인된다면 `never`형으로 인식되게 한다.

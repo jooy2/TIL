@@ -8,3 +8,5 @@
 # Project files
 .github/
 dist/
+docs/.vitepress/cache/
+docs/.vitepress/.temp/

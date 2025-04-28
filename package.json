@@ -11,8 +11,8 @@
 		"dev": "vitepress dev docs",
 		"build": "vitepress build docs",
 		"serve": "npm run docs:build && vitepress serve docs",
-		"lint": "eslint .",
-		"lint:fix": "eslint --fix .",
+		"lint": "eslint . --ext .js,.ts .",
+		"lint:fix": "eslint . --ext .js,.ts --fix .",
 		"format": "prettier .",
 		"format:fix": "prettier . --write"
 	},
@@ -24,15 +24,19 @@
 		"url": "https://github.com/jooy2/TIL/issues"
 	},
 	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^7.8.0",
-		"@typescript-eslint/parser": "^7.8.0",
-		"eslint": "^8.57.0",
+		"@eslint/js": "^9.25.1",
+		"@typescript-eslint/eslint-plugin": "^8.31.0",
+		"@typescript-eslint/parser": "^8.31.0",
+		"eslint": "^9.25.1",
 		"eslint-config-airbnb": "^19.0.4",
-		"eslint-config-prettier": "^9.1.0",
+		"eslint-config-prettier": "^10.1.2",
+		"globals": "^16.0.0",
+		"jiti": "^2.4.2",
 		"prettier": "^3.5.3",
-		"typescript": "^5.8.2",
+		"typescript": "^5.8.3",
+		"typescript-eslint": "^8.31.0",
 		"vitepress": "^1.6.3",
-		"vitepress-i18n": "^1.3.3",
+		"vitepress-i18n": "^1.3.4",
 		"vitepress-sidebar": "^1.31.1",
 		"vue": "^3.5.13"
 	}
