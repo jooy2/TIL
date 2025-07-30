@@ -44,6 +44,12 @@ $ sudo ufw allow 23/tcp
 
 ## Xinetd 설정
 
+텍스트 에디터로 `/etc/services` 파일을 열고, `23/tcp` 항목의 끝에 아래와 같이 `telnetd`를 추가하고 저장한다.
+
+```text
+telnet      23/tcp  telnetd
+```
+
 텍스트 에디터로 `/etc/xinetd.d/telnet` 파일을 편집한다. 없다면 새로 만든다.
 
 ```shell
@@ -53,11 +59,13 @@ service telnet
         socket_type     = stream
         wait            = no
         user            = root
-        server          = /usr/sbin/in.telnetd
+        server          = /usr/sbin/telnetd
         log_on_failure  += USERID
         disable         = no
 }
 ```
+
+오래된 서버의 경우 `server`에서 `/usr/sbin/in.telnetd`를 입력해야 할 수 있다.
 
 `disable` 값이 `no`인 경우 사용, `yes`인 경우 사용하지 않음이다.
 
