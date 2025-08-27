@@ -37,7 +37,7 @@ console.log(objB.age); // 20
 
 `structuredClone`은 최신 브라우저에서 지원되며 오래된 브라우저에서는 동작하지 않을 수 있으므로 다음 페이지에서 호환 여부를 확인한다: https://caniuse.com/?search=structuredclone
 
-**NodeJS**는 18.x 버전 이후부터 정식으로 사용할 수 있다.
+**Node.js**는 18.x 버전 이후부터 정식으로 사용할 수 있다.
 
 ### lodash `cloneDeep` 사용
 

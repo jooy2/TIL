@@ -50,7 +50,7 @@ const obj = {
 console.dir(obj, { depth: null }); // { hello: 'world', child: { hello: 'world' } };
 ```
 
-`NodeJS`의 `util.inspect`를 사용하여 객체를 모두 표시할 수 있다. 다만 특별한 경우가 아니라면 `console.dir`을 사용하는 것이 더 간편하다.
+`Node.js`의 `util.inspect`를 사용하여 객체를 모두 표시할 수 있다. 다만 특별한 경우가 아니라면 `console.dir`을 사용하는 것이 더 간편하다.
 
 ```javascript
 import { inspect } from 'util';

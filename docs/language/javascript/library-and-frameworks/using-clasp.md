@@ -7,7 +7,7 @@
 
 # 설치
 
-`clasp`는 **NodeJS** 런타임에서 구동되는 `CLI` 명령어 도구이다. 따라서 `npm` 패키지를 통해 아래와 같이 설치할 수 있다.
+`clasp`는 **Node.js** 런타임에서 구동되는 `CLI` 명령어 도구이다. 따라서 `npm` 패키지를 통해 아래와 같이 설치할 수 있다.
 
 ```shell
 $ npm install -g @google/clasp
