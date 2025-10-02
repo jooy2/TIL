@@ -2,11 +2,43 @@
 
 ## 자동 업그레이드
 
-터미널에서 다음 명령을 실행한다. 이 경우 Flutter 설치 경로의 파일이 최신 버전으로 대체된다.
+일반적으로 Flutter 버전을 업그레이드 하려는 경우 터미널에서 다음 명령을 실행한다. 이 경우 Flutter 설치 경로의 파일이 최신 버전으로 대체된다.
 
 ```shell
 $ flutter clean
 $ flutter upgrade
+```
+
+Flutter 버전은 [`fvm`](https://fvm.app)을 사용하여 버전 관리를 하는 것을 권장한다. 버전을 변경해가면서 앱을 테스트할 때 유용하며 환경이 서로 꼬이지 않는다.
+
+만약 `fvm`으로 버전을 올리는 경우 아래 커맨드로 버전을 올릴 수 있다.
+
+```shell
+$ fvm install {version}
+$ fvm use {version}
+
+# 만약 해당 버전을 전역 프로젝트에서 기본값으로 적용하려면:
+$ fvm global {version}
+```
+
+`.fvmrc` 파일이 프로젝트 루트에 존재할 경우 여기에 있는 Flutter 버전도 갱신해야 한다. `fvm use`를 사용하여 이미 지정했다면 파일이 알아서 변경될 수 있다.
+
+Firebase를 사용 중일 때 Flutter 버전 업그레이드 후 아래 커맨드를 실행하여 현재 Dart 버전에 Flutterfire CLI를 적용해야 할 수 있다.
+
+```shell
+$ dart pub global activate flutterfire_cli
+```
+
+Flutter의 버전이 올라가면 일부 코드 변경사항이 발생하거나 종속성 문제가 발생할 수 있다. 관련 업데이트 내용을 확인하고, 아래와 같이 종속성 점검을 실행한다.
+
+```shell
+$ flutter pub get
+```
+
+관련 문제가 나타날 경우 아래 명령어로 현재 Flutter 버전과 호환되도록 버전을 맞추어줄 수 있다. 아래 명령어가 모든 패키지를 최신으로 업그레이드하는 것은 아니므로 참고한다.
+
+```shell
+$ flutter pub upgrade --major-versions
 ```
 
 ## 수동 업그레이드 & 다운그레이드
