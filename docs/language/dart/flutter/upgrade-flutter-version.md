@@ -41,6 +41,20 @@ $ flutter pub get
 $ flutter pub upgrade --major-versions
 ```
 
+안드로이드나 iOS 빌드 시 빌드 캐시로 인해 실행 문제가 발생할 수 있으므로 프로젝트 루트 폴더에서 순서대로 아래 명령을 실행한다.
+
+```shell
+$ flutter clean
+$ flutter precache --ios
+$ flutter pub get
+$ cd ios
+$ rm -rf Podfile.lock Pods/ .symlinks/ Flutter/Flutter.framework Flutter/Flutter.podspec
+$ pod cache clean --all
+$ pod repo update
+$ pod install
+$ cd ..
+```
+
 ## 수동 업그레이드 & 다운그레이드
 
 프로젝트 업그레이드 전 열려있는 프로젝트를 닫는다.
