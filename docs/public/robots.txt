@@ -104,4 +104,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /support/
 
-Sitemap: https://vutools.com/sitemap.xml
+Sitemap: https://til.jooy2.com/sitemap.xml
