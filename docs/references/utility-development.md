@@ -109,6 +109,12 @@
 - **[Bitly](https://bitly.com)** `영`
   - URL을 짧게 만들어주는 사이트
 
+- **[Comprehensive Privacy Policy Generator](https://tempest-solutions-company.github.io/privacy-policy-generator)** `영`
+  - Privacy Policy(개인정보 처리방침)를 만들어주는 사이트
+
+- **[App Privacy Policy generator](https://app-privacy-policy-generator.nisrulz.com)** `영`
+  - 모바일 애플리케이션용 Privacy Policy(개인정보 처리방침)를 만들어주는 사이트
+
 ## 단위 & 계산
 
 - **[Epoch Converter](https://www.epochconverter.com)** `영`
