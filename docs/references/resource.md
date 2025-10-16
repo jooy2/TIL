@@ -5,59 +5,48 @@
 ## 글꼴
 
 - **[Google Fonts](https://fonts.google.com)** `영`
-
   - 구글에서 제공되는 다운로드 또는 CDN 무료 폰트
 
 - **[Dafont](https://www.dafont.com)** `영`
-
   - 여러 스타일의 커뮤니티 제작 폰트 파일 제공.
   - 무료를 포함하여 특정 라이선스를 따로 선택하여 검색할 수 있으며 원하는 텍스트를 미리 입력해 미리보기로 확인할 수 있다
 
 ## 이미지
 
 - **[Pixabay](https://pixabay.com)** `영`
-
   - 무료 라이선스 스톡 이미지 사이트. Pixabay 라이선스라고 명시된 이미지에 한해 출처 미표기 사용 가능
   - 검색 시 상단 이미지 일부는 유료이므로 사용에 주의
 
 - **[Pexels](https://www.pexels.com)** `영`
-
   - 무료 라이선스 스톡 이미지 사이트. '무료 사용'으로 명시된 이미지에 한해 출처 미표기 사용 가능
 
 - **[Wallpapers.com](https://wallpapers.com)** `영`
-
   - 무료 라이선스 배경 이미지 및 이미지 편집 도구 제공
 
 ## 아이콘
 
 - **[Icons8](https://icons8.com)** `영`
-
   - 다양한 스타일과 수많은 개수의 아이콘 파일(.png, .svg...) 제공
   - 무료로 사용 시 제한된 수의 아이콘만 제공되며 제한된 위치에서 출처 표기와 함께 사용해야 한다. 자세한 내용은 https://icons8.com/pricing 참고
 
 ## 음원
 
 - **[모션엘리먼츠 (MotionElements)](https://www.motionelements.com)** `영`
-
   - 무료, 유료로 구매하여 원하는 음원을 사용할 수 있는 리소스 제공 사이트. 로열티 프리 라이선스로 영구 제공
   - 제공하고 있는 무료 음원의 수는 매우 적음
 
 ## 운영체제
 
 - **[UUP Dump](https://uupdump.net)** `영`
-
   - 윈도우 업데이트 서버에서 UUP 파일을 검색하여 쉽게 다운로드할 수 있는 사이트
 
 - **[IPSW Downloads](https://ipsw.me)** `영`
-
   - macOS IPSW 이미지 파일 제공
 
 ## 데이터
 
 - **[공공 데이터 포털](https://www.data.go.kr)** `한`
-
   - 국가 공공 데이터를 API 서비스로 신청하여 활용할 수 있도록 데이터를 제공해주는 사이트
 
 - **[AI Hub](https://aihub.or.kr)** `한`
-
   - 한국지능정보사회진흥원에서 배포하는 인공지능 학습을 위한 무료 데이터 세트 제공
