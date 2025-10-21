@@ -5,3 +5,9 @@
 ```shell
 $ du -h /System/Volumes/Data | grep "G\t" | sort
 ```
+
+## 현재 수신 중인 포트를 프로세스 이름과 함께 출력
+
+```shell
+$ sudo lsof -i -P -n
+```
