@@ -24,6 +24,16 @@
 - **[EndOfLife.date](https://endoflife.date)** `영`
   - 각종 서비스, 운영체제, 소프트웨어의 기술 지원 만료 일자를 정리한 사이트
 
+## 인공지능
+
+- **[LLM Leaderboard](https://artificialanalysis.ai)** `영`
+  - 각종 인공지능 모델 벤치마킹 및 랭킹 사이트
+
+## 보안
+
+- **[Have I Been Pwned](https://haveibeenpwned.com)** `영`
+  - 검색한 이메일 계정이 개인정보 유출이나 도용 기록이 있는지 검색해볼 수 있는 사이트
+
 ## 프로그래밍
 
 - **[iOS Resolution](https://www.ios-resolution.com)** `영`
