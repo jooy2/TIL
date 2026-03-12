@@ -11,10 +11,8 @@
 		"dev": "vitepress dev docs",
 		"build": "vitepress build docs",
 		"serve": "npm run docs:build && vitepress serve docs",
-		"lint": "eslint . --ext .js,.ts .",
-		"lint:fix": "eslint . --ext .js,.ts --fix .",
-		"format": "prettier .",
-		"format:fix": "prettier . --write"
+		"lint": "eslint . --ext .js,.ts . --fix .",
+		"format": "prettier . --write",
 	},
 	"repository": {
 		"type": "git",
