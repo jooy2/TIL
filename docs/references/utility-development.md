@@ -4,11 +4,14 @@
 
 ## 종합
 
+- **[VuTools](https://vutools.com)** `한`
+  - 텍스트, 포맷, 문서, 검증 작업 등의 다양한 온라인 유틸리티 제공
+
 - **[Online Tools](https://emn178.github.io/online-tools)** `영`
   - 암호화, 포맷팅, 컨버팅 등 다양한 온라인 유틸리티 제공
 
-- **[vuTools](https://vutools.com)** `한`
-  - 텍스트, 포맷, 문서, 검증 작업 등의 다양한 온라인 유틸리티 제공
+- **[RandomKeygen](https://randomkeygen.com)** `영`
+  - 임의 암호화 키, 암호를 생성할 수 있는 사이트
 
 - **[PiliApp](https://kr.piliapp.com)** `한`
   - 인터넷 또는 실생활에 유용한 온라인 유틸리티 제공
@@ -127,6 +130,9 @@
 
 - **[Convertio](https://convertio.co)** `영`
   - 이미지, 비디오, 문서 등의 다양한 파일을 특정 포맷으로 변환해주는 사이트
+
+- **[EaseUs](https://www.easeus.co.kr)** `영`
+  - 데이터 복구, 백업, 하드디스크 복원 관련 전문 도구 제공
 
 ## 운영체제 - 리눅스
 

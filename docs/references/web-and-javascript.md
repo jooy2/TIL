@@ -38,6 +38,9 @@
 - **[NPM Trends](https://www.npmtrends.com)** `영`
   - 여러 NPM 모듈간의 다운로드 추세 통계를 비교해주는 사이트
 
+- **[LibHunt](https://www.libhunt.com)** `영`
+  - 오픈소스 라이브러리 분석 및 비교 사이트
+
 - **[Bundlephobia](https://bundlephobia.com)** `영`
   - NPM 패키지의 번들 크기 검색 사이트
 
