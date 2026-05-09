@@ -32,6 +32,39 @@ $ make -j"$(nproc)"
 $ cp -L /src/out/libmimalloc.so /opt/libmimalloc.so
 ```
 
+아래는 dockerfile의 예시이다.
+
+```dockerfile
+# Install & Build Mimalloc
+FROM debian:trixie-slim AS mimalloc-builder
+
+ARG MIMALLOC_VERSION=v3.3.2
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        build-essential cmake git ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN git clone --depth 1 --branch ${MIMALLOC_VERSION} \
+        https://github.com/microsoft/mimalloc.git /src
+
+RUN mkdir -p /src/out && cd /src/out \
+    && cmake .. \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DMI_BUILD_STATIC=OFF \
+        -DMI_BUILD_OBJECT=OFF \
+        -DMI_BUILD_TESTS=OFF \
+    && make -j"$(nproc)"
+
+RUN cp -L /src/out/libmimalloc.so /opt/libmimalloc.so
+
+# Apply Mimalloc
+COPY --from=mimalloc-builder /opt/libmimalloc.so /usr/local/lib/libmimalloc.so
+ENV LD_PRELOAD=/usr/local/lib/libmimalloc.so
+ENV MIMALLOC_PURGE_DELAY=5000
+ENV MIMALLOC_PURGE_DECOMMITS=1
+ENV MIMALLOC_USE_NUMA_NODES=1
+```
+
 ## 옵션
 
 | 환경변수 | 기본값 | 권장값 (Fastify+Docker) | 설명 |
