@@ -16,6 +16,7 @@ export default defineConfig([
 		'**/node_modules',
 		'**/docs/.vitepress/cache',
 		'**/docs/.vitepress/.temp',
+		'**/docs/**/code-style-guide*',
 		'**/dist',
 		'**/package-lock.json'
 	]),

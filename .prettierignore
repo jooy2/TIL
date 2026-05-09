@@ -10,3 +10,4 @@
 dist/
 docs/.vitepress/cache/
 docs/.vitepress/.temp/
+docs/language/javascript/basic/code-style-guide*

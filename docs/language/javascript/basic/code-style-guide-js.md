@@ -1,7 +1,5 @@
 # JavaScript Code Style Guide
 
-개인적이지만 합당한, 간결하면서도 모던한 코드 작성 스타일 가이드
-
 ## JavaScript (ES6)
 
 ### `var` 대신 `const`와 `let`을 사용한다.
@@ -38,9 +36,9 @@ return isTrue ? trueFunction() : falseFunction();
 
 ```javascript
 if (isTrue) {
-	trueFunction();
+    trueFunction();
 } else {
-	falseFunction();
+    falseFunction();
 }
 ```
 
@@ -56,11 +54,11 @@ return isTrue ? (isAlsoTrue ? trueFunction() : halfTrueFunction()) : falseFuncti
 
 ```javascript
 if (isTrue && isAlsoTrue) {
-	trueFunction();
+    trueFunction();
 } else if (isTrue) {
-	halfTrueFunction();
+    halfTrueFunction();
 } else {
-	falseFunction();
+    falseFunction();
 }
 ```
 
@@ -69,13 +67,15 @@ if (isTrue && isAlsoTrue) {
 **🚫 Bad**
 
 ```javascript
-arr.map((v) => {});
+arr.map((v) => {
+});
 ```
 
 **✅ Good**
 
 ```javascript
-arr.map((v) => {});
+arr.map(v => {
+});
 ```
 
 ### 리턴만 존재하는 `Arrow Function`은 한줄로 축약한다.
@@ -84,7 +84,7 @@ arr.map((v) => {});
 
 ```javascript
 const sum = (a, b) => {
-	return a + b;
+    return a + b;
 };
 ```
 
@@ -94,19 +94,20 @@ const sum = (a, b) => {
 const sum = (a, b) => a + b;
 ```
 
+
 ### 많은 단계의 `callback`은 `async`와 `await`으로 대체한다.
 
 **🚫 Not Good**
 
 ```javascript
 function main() {
-	first().then(() => {
-		second().then(() => {
-			third().then(() => {
-				// ...
-			});
-		});
-	});
+    first().then(() => {
+        second().then(() => {
+            third().then(() => {
+                // ...
+            });
+        });
+    });
 }
 ```
 
@@ -114,11 +115,12 @@ function main() {
 
 ```javascript
 async function main() {
-	await first();
-	await second();
-	await third();
+    await first();
+    await second();
+    await third();
 }
 ```
+
 
 ## JavaScript
 
@@ -127,7 +129,7 @@ async function main() {
 **✅ Good**
 
 ```javascript
-let str = 'TEST';
+let str = "TEST";
 ```
 
 **✅ Very Good**
@@ -144,7 +146,7 @@ let srt = 'TEST';
 const obj = { a: 1 };
 
 if (obj.length !== 0) {
-	// ...
+    // ...
 }
 ```
 
@@ -154,7 +156,7 @@ if (obj.length !== 0) {
 const obj = { a: 1 };
 
 if (Object.keys(obj).length) {
-	// ...
+    // ...
 }
 ```
 
@@ -166,7 +168,7 @@ if (Object.keys(obj).length) {
 const apple = 'mac';
 
 const obj = {
-	apple: apple
+    apple: apple,
 };
 ```
 
@@ -176,7 +178,7 @@ const obj = {
 const apple = 'mac';
 
 const obj = {
-	apple
+    apple,
 };
 ```
 
@@ -188,9 +190,9 @@ const obj = {
 const apple = 'mac';
 const microsoft = 'windows';
 const obj = {
-	microsoft,
-	redhat: 'rhel',
-	apple
+    microsoft,
+    redhat: 'rhel',
+    apple,
 };
 ```
 
@@ -200,9 +202,9 @@ const obj = {
 const apple = 'mac';
 const microsoft = 'windows';
 const obj = {
-	apple,
-	microsoft,
-	redhat: 'rhel'
+    apple,
+    microsoft,
+    redhat: 'rhel',
 };
 ```
 
@@ -214,7 +216,7 @@ const obj = {
 let value = currentValue;
 
 if (!value) {
-	value = 'Unknown';
+    value = 'Unknown';
 }
 ```
 
@@ -239,7 +241,8 @@ let value = currentValue ?? 'Unknown';
 ```javascript
 const arr = [1, 2, 3, 4];
 
-for (let i = 0; i < arr.length; i++) {}
+for (let i = 0; i < arr.length; i++) {
+}
 ```
 
 **✅ Good**
@@ -248,7 +251,8 @@ for (let i = 0; i < arr.length; i++) {}
 const arr = [1, 2, 3, 4];
 const arrLength = arr.length;
 
-for (let i = 0; i < arrLength; i++) {}
+for (let i = 0; i < arrLength; i++) {
+}
 ```
 
 **✅ Good**
@@ -256,7 +260,8 @@ for (let i = 0; i < arrLength; i++) {}
 ```javascript
 const arr = [1, 2, 3, 4];
 
-for (let i = 0, iLength = arr.length; i < iLength; i++) {}
+for (let i = 0, iLength = arr.length; i < iLength; i++) {
+}
 ```
 
 ### 리턴할 때 한번만 사용되는 변수는 가급적 사용하지 않는다.
@@ -265,8 +270,8 @@ for (let i = 0, iLength = arr.length; i < iLength; i++) {}
 
 ```javascript
 function sum(a, b) {
-	const test = a + b;
-	return test;
+    const test = a + b;
+    return test;
 }
 ```
 
@@ -274,7 +279,7 @@ function sum(a, b) {
 
 ```javascript
 function sum(a, b) {
-	return a + b;
+    return a + b;
 }
 ```
 
@@ -284,7 +289,7 @@ function sum(a, b) {
 
 ```javascript
 if (value === null) {
-	// ...
+    // ...
 }
 ```
 
@@ -292,7 +297,7 @@ if (value === null) {
 
 ```javascript
 if (!value) {
-	// ...
+    // ...
 }
 ```
 
@@ -301,8 +306,8 @@ if (!value) {
 **🚫 Bad**
 
 ```javascript
-if (a || (b && c)) {
-	// ...
+if (a || b && c) {
+    // ...
 }
 ```
 
@@ -310,24 +315,24 @@ if (a || (b && c)) {
 
 ```javascript
 if (a || (b && c)) {
-	// ...
+    // ...
 }
-```
 
+```
 ### `switch`문에서 `default`는 하단에 배치한다.
 
 **🚫 Bad**
 
 ```javascript
 switch (company) {
-	default:
-		break;
-	case 'apple':
-		// apple...
-		break;
-	case 'samsung':
-		// samsung...
-		break;
+    default:
+        break;
+    case 'apple':
+        // apple...
+        break;
+    case 'samsung':
+        // samsung...
+        break;
 }
 ```
 
@@ -335,26 +340,25 @@ switch (company) {
 
 ```javascript
 switch (company) {
-	case 'apple':
-		// apple...
-		break;
-	case 'samsung':
-		// samsung...
-		break;
-	default:
-		break;
+    case 'apple':
+        // apple...
+        break;
+    case 'samsung':
+        // samsung...
+        break;
+    default:
+        break;
 }
 ```
 
 ### 비교 연산자는 자료형을 확인할 수 있도록 동등 연산자(`==`) 대신 일치 연산자(`===`)를 사용한다.
-
 숫자 `1`과 문자열 `'1'`을 엄격하게 비교하기 위해서는 `==` 를 사용해서는 안된다.
 
 **🚫 Bad**
 
 ```javascript
 if (a == 0) {
-	// ...
+    // ...
 }
 ```
 
@@ -362,7 +366,7 @@ if (a == 0) {
 
 ```javascript
 if (a === 0) {
-	// ...
+    // ...
 }
 ```
 
@@ -397,7 +401,11 @@ box().select().delete().updateStatus().refresh();
 **✅ Good**
 
 ```javascript
-box().select().delete().updateStatus().refresh();
+box()
+    .select()
+    .delete()
+    .updateStatus()
+    .refresh();
 ```
 
 ### 중첩되는 여러줄의 코드는 의미있는 묶음일 경우 한줄 주석으로 작성하지 않는다.
@@ -406,9 +414,9 @@ box().select().delete().updateStatus().refresh();
 
 ```javascript
 function sum() {
-	// let a = 1;
-	// let b = 2;
-	// return a + b;
+    // let a = 1;
+    // let b = 2;
+    // return a + b;
 }
 ```
 
@@ -416,7 +424,7 @@ function sum() {
 
 ```javascript
 function sum() {
-	/*
+    /*
     let a = 1;
     let b = 2;
     return a + b;
@@ -434,7 +442,7 @@ function sum() {
 
 ```javascript
 function sum() {
-	// The given argument values must be added together
+    // The given argument values must be added together
 }
 ```
 
@@ -444,9 +452,10 @@ function sum() {
 
 ```javascript
 function sum() {
-	// TODO: The given argument values must be added together
+    // TODO: The given argument values must be added together
 }
 ```
+
 
 ### `alert`, `confirm`은 가능한 배제하고 로깅은 `console`을 사용한다.
 
@@ -493,7 +502,7 @@ console.log('test:', obj); // return 'test: { a: 1 }'
 ```javascript
 if (isTrue) doFunction();
 else {
-	doAnotherFunction();
+    doAnotherFunction();
 }
 ```
 
@@ -508,7 +517,7 @@ else doAnotherFunction();
 
 ```javascript
 if (isTrue) {
-	doFunction();
+    doFunction();
 } else {
 }
 ```
@@ -519,7 +528,8 @@ if (isTrue) {
 
 ```javascript
 if (isTrue) {
-} else {
+}
+else {
 }
 ```
 
@@ -537,9 +547,9 @@ if (isTrue) {
 
 ```javascript
 if (isTrue) {
-	return true;
+    return true;
 } else {
-	return false;
+    return false;
 }
 ```
 

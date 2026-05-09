@@ -2,6 +2,26 @@
 
 ## CSS
 
+### 마지막 속성에는 세미콜론(`;`)을 붙이지 않는다.
+
+**🚫 Bad**
+
+```css
+.myClass {
+	display: block;
+	background: red;
+}
+```
+
+**✅ Good**
+
+```css
+.myClass {
+	display: block;
+	background: red;
+}
+```
+
 ### 속성과 속성 사이, 속성과 값 사이에 공백을 붙인다.
 
 **🚫 Bad**
@@ -98,6 +118,25 @@
 }
 ```
 
+### 역할이 겹치는 속성을 중복하여 사용하지 않는다.
+
+**🚫 Not Good**
+
+```css
+.myDiv {
+	padding: 0 0 0 5px;
+	padding-left: 10px;
+}
+```
+
+**✅ Good**
+
+```css
+.myDiv {
+	padding-left: 10px;
+}
+```
+
 ### 여러 방향의 속성을 정의할 경우 (특히 같은 값일 때) 가능한 한줄로 축약할 수 있도록 한다.
 
 **🚫 Not Good**
@@ -116,25 +155,6 @@
 ```css
 .myDiv {
 	padding: 10px;
-}
-```
-
-### 역할이 겹치는 속성을 중복하여 사용하지 않는다.
-
-**🚫 Not Good**
-
-```css
-.myDiv {
-	padding: 0 0 0 5px;
-	padding-left: 10px;
-}
-```
-
-**✅ Good**
-
-```css
-.myDiv {
-	padding-left: 10px;
 }
 ```
 
