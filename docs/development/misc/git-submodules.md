@@ -40,6 +40,17 @@ $ git submodule update --recursive
 $ git submodule update --recursive --remote
 ```
 
+## 서브모듈 파일 복원
+
+서브모듈 내 파일을 실수로 건드리거나 삭제하였을 때 다시 해당 커밋으로 돌려야 할 수 있다.
+
+아래 명령을 통해 다시 원래 커밋으로 되돌릴 수 있다.
+
+```shell
+$ git -C [Path] restore .
+$ git restore --recurse-submodules [Path]
+```
+
 ## 서브모듈 초기화
 
 서브모듈을 사용하지 않거나 다시 설정하려는 경우 아래 방법을 사용한다.
