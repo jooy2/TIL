@@ -48,6 +48,7 @@ $ git submodule update --recursive --remote
 
 ```shell
 $ git -C [Path] restore .
+# 또는
 $ git restore --recurse-submodules [Path]
 ```
 
